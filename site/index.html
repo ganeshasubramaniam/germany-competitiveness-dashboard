@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An evidence-led view of Germany's economic competitiveness.">
+    <meta name="theme-color" content="#ece8de">
+    <title>Germany Competitiveness Monitor</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to dashboard</a>
+    <header class="masthead">
+      <div class="brand-block">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <p class="eyebrow">Germany · evidence monitor</p>
+          <h1>Competitiveness, through the transmission chain</h1>
+        </div>
+      </div>
+      <div class="as-of" id="as-of" aria-live="polite">Loading current evidence…</div>
+    </header>
+
+    <nav class="section-nav" aria-label="Dashboard sections" role="tablist">
+      <button class="nav-tab is-active" data-view="overview" type="button" role="tab" aria-controls="view-overview" aria-selected="true">Overview</button>
+      <button class="nav-tab" data-view="evidence" type="button" role="tab" aria-controls="view-evidence" aria-selected="false" tabindex="-1">Evidence</button>
+      <button class="nav-tab" data-view="global" type="button" role="tab" aria-controls="view-global" aria-selected="false" tabindex="-1">Global benchmark</button>
+      <button class="nav-tab" data-view="news" type="button" role="tab" aria-controls="view-news" aria-selected="false" tabindex="-1">Significant news</button>
+      <button class="nav-tab" data-view="methodology" type="button" role="tab" aria-controls="view-methodology" aria-selected="false" tabindex="-1">Methodology</button>
+    </nav>
+
+    <main id="main">
+      <section class="view is-active" id="view-overview" aria-labelledby="overview-title" role="tabpanel">
+        <div class="overview-grid">
+          <article class="briefing-panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Latest reading</p>
+                <h2 id="overview-title">What changed in the evidence?</h2>
+              </div>
+              <span class="method-badge">Rules, not forecasts</span>
+            </div>
+            <div id="daily-brief" class="daily-brief loading-block">Calculating the current evidence balance…</div>
+          </article>
+
+          <aside class="freshness-panel" aria-labelledby="freshness-title">
+            <p class="eyebrow">Source control</p>
+            <h2 id="freshness-title">Freshness</h2>
+            <div id="freshness-summary" class="freshness-summary loading-block">Checking sources…</div>
+          </aside>
+        </div>
+
+        <section class="chain-section" aria-labelledby="chain-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Reading order</p>
+              <h2 id="chain-title">Competitiveness transmission chain</h2>
+            </div>
+            <p class="section-note">Not a causal model. A disciplined way to connect drivers with outcomes.</p>
+          </div>
+          <div id="transmission-chain" class="transmission-chain loading-block">Building the chain…</div>
+        </section>
+
+        <section class="watch-section" aria-labelledby="watch-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Priority queue</p>
+              <h2 id="watch-title">Signals worth watching</h2>
+            </div>
+          </div>
+          <div id="watch-list" class="watch-list loading-block">Ranking material signals…</div>
+        </section>
+      </section>
+
+      <section class="view" id="view-evidence" aria-labelledby="evidence-title" role="tabpanel" hidden>
+        <div class="section-heading page-heading">
+          <div>
+            <p class="eyebrow">Timely EU panel</p>
+            <h2 id="evidence-title">Germany against harmonised European peers</h2>
+          </div>
+          <p class="section-note">Germany · EU27 · France · Italy · Netherlands · Poland</p>
+        </div>
+        <div id="evidence-grid" class="pillar-stack loading-block">Loading harmonised evidence…</div>
+      </section>
+
+      <section class="view" id="view-global" aria-labelledby="global-title" role="tabpanel" hidden>
+        <div class="section-heading page-heading">
+          <div>
+            <p class="eyebrow">Annual, explicitly lagged</p>
+            <h2 id="global-title">Global benchmark</h2>
+          </div>
+          <p class="section-note">Adds the United States and China only where one source is genuinely comparable.</p>
+        </div>
+        <div class="scope-warning">
+          Annual World Bank indicators are structural context, not a daily pulse. Reference years may differ by country.
+        </div>
+        <div id="global-grid" class="metric-grid loading-block">Loading global benchmark…</div>
+      </section>
+
+      <section class="view" id="view-news" aria-labelledby="news-title" role="tabpanel" hidden>
+        <div class="section-heading page-heading">
+          <div>
+            <p class="eyebrow">Maximum five developments</p>
+            <h2 id="news-title">Significant German economic and business news</h2>
+          </div>
+          <p class="section-note">Official sources first. Company releases remain labelled announcements.</p>
+        </div>
+        <div id="news-list" class="news-list loading-block">Filtering today's releases…</div>
+      </section>
+
+      <section class="view" id="view-methodology" aria-labelledby="methodology-title" role="tabpanel" hidden>
+        <div class="section-heading page-heading">
+          <div>
+            <p class="eyebrow">Audit trail</p>
+            <h2 id="methodology-title">How to read this dashboard</h2>
+          </div>
+        </div>
+        <div id="methodology-content" class="methodology-layout loading-block">Loading methodology…</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Public data, deterministic interpretation. This monitor is analytical context, not investment advice or an economic forecast.</p>
+      <p id="build-stamp"></p>
+    </footer>
+
+    <noscript>This dashboard requires JavaScript to render the latest evidence.</noscript>
+  </body>
+</html>

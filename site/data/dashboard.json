@@ -1,0 +1,1700 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T07:37:04.018Z",
+  "status": "healthy",
+  "countries": {
+    "eu": [
+      {
+        "code": "DE",
+        "label": "Germany",
+        "shortLabel": "DE"
+      },
+      {
+        "code": "EU27_2020",
+        "label": "European Union",
+        "shortLabel": "EU"
+      },
+      {
+        "code": "FR",
+        "label": "France",
+        "shortLabel": "FR"
+      },
+      {
+        "code": "IT",
+        "label": "Italy",
+        "shortLabel": "IT"
+      },
+      {
+        "code": "NL",
+        "label": "Netherlands",
+        "shortLabel": "NL"
+      },
+      {
+        "code": "PL",
+        "label": "Poland",
+        "shortLabel": "PL"
+      }
+    ],
+    "global": [
+      {
+        "code": "DEU",
+        "label": "Germany",
+        "shortLabel": "DE"
+      },
+      {
+        "code": "EUU",
+        "label": "European Union",
+        "shortLabel": "EU"
+      },
+      {
+        "code": "FRA",
+        "label": "France",
+        "shortLabel": "FR"
+      },
+      {
+        "code": "ITA",
+        "label": "Italy",
+        "shortLabel": "IT"
+      },
+      {
+        "code": "NLD",
+        "label": "Netherlands",
+        "shortLabel": "NL"
+      },
+      {
+        "code": "POL",
+        "label": "Poland",
+        "shortLabel": "PL"
+      },
+      {
+        "code": "USA",
+        "label": "United States",
+        "shortLabel": "US"
+      },
+      {
+        "code": "CHN",
+        "label": "China",
+        "shortLabel": "CN"
+      }
+    ]
+  },
+  "pillars": [
+    {
+      "id": "productivity",
+      "name": "Productivity & growth",
+      "description": "Whether output per unit of labour is improving—not simply whether headline GDP is expanding."
+    },
+    {
+      "id": "industry",
+      "name": "Industrial engine",
+      "description": "Manufacturing production, capacity and economic structure: the operating core of Germany's tradable economy."
+    },
+    {
+      "id": "costs",
+      "name": "Cost position & energy",
+      "description": "Unit labour costs and industrial energy prices, always read alongside productivity and demand."
+    },
+    {
+      "id": "trade",
+      "name": "Trade & economic security",
+      "description": "Export performance, sector mix and exposure to concentrated markets or critical foreign inputs."
+    },
+    {
+      "id": "investment",
+      "name": "Investment & capital",
+      "description": "Whether public and private capital is expanding the economy's future productive capacity."
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation & digital diffusion",
+      "description": "Research effort, high-technology output and the spread of enabling digital capabilities."
+    },
+    {
+      "id": "labour",
+      "name": "Labour, skills & demography",
+      "description": "Labour availability, utilisation and the slow-moving demographic constraint on potential growth."
+    },
+    {
+      "id": "state",
+      "name": "State capacity & infrastructure",
+      "description": "Public investment and institutional capacity to turn finance and policy into productive assets."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "real-gdp-qoq",
+      "name": "Real GDP growth",
+      "pillar": "productivity",
+      "frequency": "Quarterly",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&na_item=B1GQ&unit=CLV_PCH_PRE&s_adj=SCA"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 0.3,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 0.1,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": -0.1,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 0.3,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 0.2,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 0.6,
+          "period": "2026-Q1"
+        }
+      ],
+      "germany": {
+        "value": 0.3,
+        "period": "2026-Q1",
+        "previousValue": 0.4,
+        "previousPeriod": "2025-Q1",
+        "peerMedian": 0.2,
+        "state": "mixed",
+        "explanation": "2026-Q1: fell by 0.1% versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "rule": {
+          "direction": "higher",
+          "noiseBand": 0.2
+        }
+      }
+    },
+    {
+      "id": "productivity-hourly",
+      "name": "Real productivity per hour",
+      "pillar": "productivity",
+      "frequency": "Quarterly",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_lp_ulc?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&na_item=RLPR_HW&unit=PCH_PRE&s_adj=SCA"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 0.6,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 0.3,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 0,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 0,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 0.4,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 0.6,
+          "period": "2026-Q1"
+        }
+      ],
+      "germany": {
+        "value": 0.6,
+        "period": "2026-Q1",
+        "previousValue": 0.4,
+        "previousPeriod": "2025-Q1",
+        "peerMedian": 0.3,
+        "state": "mixed",
+        "explanation": "2026-Q1: rose by 0.2% versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "rule": {
+          "direction": "higher",
+          "noiseBand": 0.2
+        }
+      }
+    },
+    {
+      "id": "unit-labour-cost",
+      "name": "Nominal unit labour cost index",
+      "pillar": "costs",
+      "frequency": "Quarterly",
+      "decimals": 1,
+      "suffix": "",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_lp_ulc?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&na_item=NULC_HW&unit=I20&s_adj=SCA"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 123.425,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 122.001,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 113.736,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 114.481,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 122.544,
+          "period": "2026-Q1"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 144.208,
+          "period": "2026-Q1"
+        }
+      ],
+      "germany": {
+        "value": 123.425,
+        "period": "2026-Q1",
+        "previousValue": 119.556,
+        "previousPeriod": "2025-Q1",
+        "peerMedian": 122.001,
+        "state": "mixed",
+        "explanation": "2026-Q1: rose by 3.9 versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "rule": {
+          "direction": "lower",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "industrial-electricity-price",
+      "name": "Industrial electricity price",
+      "pillar": "costs",
+      "frequency": "Semiannual",
+      "decimals": 3,
+      "suffix": " €/kWh",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_205?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&currency=EUR&tax=X_TAX&unit=KWH&nrg_cons=MWH2000-19999&siec=E7000"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 0.1613,
+          "period": "2025-S2"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 0.1349,
+          "period": "2025-S2"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 0.1068,
+          "period": "2025-S2"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 0.1587,
+          "period": "2025-S2"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 0.1425,
+          "period": "2025-S2"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 0.1113,
+          "period": "2025-S2"
+        }
+      ],
+      "germany": {
+        "value": 0.1613,
+        "period": "2025-S2",
+        "previousValue": 0.181,
+        "previousPeriod": "2024-S2",
+        "peerMedian": 0.1349,
+        "state": "improving",
+        "explanation": "2025-S2: fell by 0.020 €/kWh versus 2024-S2; that is improving under the published direction rule.",
+        "rule": {
+          "direction": "lower",
+          "noiseBand": 0.005
+        }
+      }
+    },
+    {
+      "id": "industrial-gas-price",
+      "name": "Industrial gas price",
+      "pillar": "costs",
+      "frequency": "Semiannual",
+      "decimals": 3,
+      "suffix": " €/kWh",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_203?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&currency=EUR&tax=X_TAX&unit=KWH&nrg_cons=GJ100000-999999&siec=G3000"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 0.0428,
+          "period": "2025-S2"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 0.0419,
+          "period": "2025-S2"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 0.0411,
+          "period": "2025-S2"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 0.0435,
+          "period": "2025-S2"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 0.0361,
+          "period": "2025-S2"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 0.0505,
+          "period": "2025-S2"
+        }
+      ],
+      "germany": {
+        "value": 0.0428,
+        "period": "2025-S2",
+        "previousValue": 0.0488,
+        "previousPeriod": "2024-S2",
+        "peerMedian": 0.0419,
+        "state": "improving",
+        "explanation": "2025-S2: fell by 0.006 €/kWh versus 2024-S2; that is improving under the published direction rule.",
+        "rule": {
+          "direction": "lower",
+          "noiseBand": 0.005
+        }
+      }
+    },
+    {
+      "id": "industrial-production",
+      "name": "Industrial production",
+      "pillar": "industry",
+      "frequency": "Monthly",
+      "decimals": 1,
+      "suffix": "",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&indic_bt=PRD&nace_r2=B-D&s_adj=SCA&unit=I21"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 91.8,
+          "period": "2026-05"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 100.3,
+          "period": "2026-05"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 103.7,
+          "period": "2026-05"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 94.5,
+          "period": "2026-05"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 104.8,
+          "period": "2026-05"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 116.7,
+          "period": "2026-05"
+        }
+      ],
+      "germany": {
+        "value": 91.8,
+        "period": "2026-05",
+        "previousValue": 92.4,
+        "previousPeriod": "2025-05",
+        "peerMedian": 103.7,
+        "state": "mixed",
+        "explanation": "2026-05: fell by 0.6 versus 2025-05, inside the 1-point noise band or subject to a data flag.",
+        "rule": {
+          "direction": "higher",
+          "noiseBand": 1
+        }
+      }
+    },
+    {
+      "id": "unemployment",
+      "name": "Unemployment rate",
+      "pillar": "labour",
+      "frequency": "Monthly",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&sex=T&age=TOTAL&unit=PC_ACT&s_adj=SA"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 3.8,
+          "period": "2026-05"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 5.9,
+          "period": "2026-05"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 8.2,
+          "period": "2026-05"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 5,
+          "period": "2026-05"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 3.8,
+          "period": "2026-06"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 3.1,
+          "period": "2026-05"
+        }
+      ],
+      "germany": {
+        "value": 3.8,
+        "period": "2026-05",
+        "previousValue": 3.7,
+        "previousPeriod": "2025-05",
+        "peerMedian": 5.45,
+        "state": "mixed",
+        "explanation": "2026-05: rose by 0.1% versus 2025-05, inside the 0.1-point noise band or subject to a data flag.",
+        "rule": {
+          "direction": "lower",
+          "noiseBand": 0.1
+        }
+      }
+    },
+    {
+      "id": "investment-share",
+      "name": "Gross fixed capital formation",
+      "pillar": "investment",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&na_item=P51G&unit=PC_GDP"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 20.3,
+          "period": "2025"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 21.5,
+          "period": "2025"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 22.2,
+          "period": "2025"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 21.8,
+          "period": "2025"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 20.1,
+          "period": "2025"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 17.1,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 20.3,
+        "period": "2025",
+        "previousValue": 20.5,
+        "previousPeriod": "2024",
+        "peerMedian": 21.5,
+        "state": "structural",
+        "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "rd-intensity-eu",
+      "name": "R&D expenditure",
+      "pillar": "innovation",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/rd_e_gerdtot?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&sectperf=TOTAL&unit=PC_GDP"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 3.13,
+          "period": "2024"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 2.24,
+          "period": "2024"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 2.18,
+          "period": "2024"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 1.38,
+          "period": "2024"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 2.29,
+          "period": "2024"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 1.41,
+          "period": "2024"
+        }
+      ],
+      "germany": {
+        "value": 3.13,
+        "period": "2024",
+        "previousValue": 3.13,
+        "previousPeriod": "2023",
+        "peerMedian": 2.18,
+        "state": "structural",
+        "explanation": "2024: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.1
+        }
+      }
+    },
+    {
+      "id": "old-age-dependency-eu",
+      "name": "Old-age dependency ratio",
+      "pillar": "labour",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjanind?lang=en&sinceTimePeriod=2020&geo=DE&geo=EU27_2020&geo=FR&geo=IT&geo=NL&geo=PL&indic_de=OLDDEP1"
+      },
+      "peers": [
+        {
+          "code": "DE",
+          "shortLabel": "DE",
+          "value": 35.9,
+          "period": "2025"
+        },
+        {
+          "code": "EU27_2020",
+          "shortLabel": "EU",
+          "value": 34.5,
+          "period": "2025"
+        },
+        {
+          "code": "FR",
+          "shortLabel": "FR",
+          "value": 35.5,
+          "period": "2025"
+        },
+        {
+          "code": "IT",
+          "shortLabel": "IT",
+          "value": 39,
+          "period": "2025"
+        },
+        {
+          "code": "NL",
+          "shortLabel": "NL",
+          "value": 32.4,
+          "period": "2025"
+        },
+        {
+          "code": "PL",
+          "shortLabel": "PL",
+          "value": 32.7,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 35.9,
+        "period": "2025",
+        "previousValue": 35.2,
+        "previousPeriod": "2024",
+        "peerMedian": 34.5,
+        "state": "structural",
+        "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-lower",
+          "noiseBand": 0.5
+        }
+      }
+    }
+  ],
+  "globalIndicators": [
+    {
+      "id": "global-gdp-growth",
+      "name": "Real GDP growth",
+      "pillar": "productivity",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/NY.GDP.MKTP.KD.ZG?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 0.239578342117881,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 1.53795434836212,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 0.840949955479587,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 0.539583636778445,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 1.78463214703797,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 3.5727250346774,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 2.16138195623856,
+          "period": "2025"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 4.95994886240992,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 0.239578342117881,
+        "period": "2025",
+        "previousValue": -0.495851897260366,
+        "previousPeriod": "2024",
+        "peerMedian": 1.78463214703797,
+        "state": "structural",
+        "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.2
+        }
+      }
+    },
+    {
+      "id": "global-productivity",
+      "name": "GDP per person employed",
+      "pillar": "productivity",
+      "frequency": "Annual",
+      "decimals": 0,
+      "suffix": " int$",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/SL.GDP.PCAP.EM.KD?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 125086.345177807,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 119167.837033365,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 128587.127837241,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 131480.575156627,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 129804.614832068,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 96960.1448923207,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 156983.22001681,
+          "period": "2025"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 48125.7905914578,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 125086.345177807,
+        "period": "2025",
+        "previousValue": 123669.324150945,
+        "previousPeriod": "2024",
+        "peerMedian": 128587.127837241,
+        "state": "structural",
+        "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 500
+        }
+      }
+    },
+    {
+      "id": "global-investment",
+      "name": "Gross capital formation",
+      "pillar": "investment",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/NE.GDI.FTOT.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 20.312556628657,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 21.3140333641536,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 22.0193072027382,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 21.8347372224523,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 19.7973136813689,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 17.0286414261905,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 21.3498335194267,
+          "period": "2024"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 39.6519325237885,
+          "period": "2024"
+        }
+      ],
+      "germany": {
+        "value": 20.312556628657,
+        "period": "2025",
+        "previousValue": 20.4603173503166,
+        "previousPeriod": "2024",
+        "peerMedian": 21.3140333641536,
+        "state": "structural",
+        "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-rd",
+      "name": "R&D expenditure",
+      "pillar": "innovation",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 3.1539,
+          "period": "2023"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 2.26277335792334,
+          "period": "2023"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 2.17832,
+          "period": "2023"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 1.37935,
+          "period": "2023"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 2.26719,
+          "period": "2023"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 1.55525,
+          "period": "2023"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 3.44716,
+          "period": "2023"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 2.57729,
+          "period": "2023"
+        }
+      ],
+      "germany": {
+        "value": 3.1539,
+        "period": "2023",
+        "previousValue": 3.07096,
+        "previousPeriod": "2022",
+        "peerMedian": 2.26277335792334,
+        "state": "structural",
+        "explanation": "2023: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.1
+        }
+      }
+    },
+    {
+      "id": "global-fdi",
+      "name": "FDI net inflows",
+      "pillar": "investment",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/BX.KLT.DINV.WD.GD.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 1.88462297077013,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 0.412153341183079,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 2.16930740558009,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 0.034602983660439,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": -1.40518243891316,
+          "period": "2024"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 1.93405687091201,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 1.30166689957978,
+          "period": "2025"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 0.410194399848574,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 1.88462297077013,
+        "period": "2025",
+        "previousValue": 1.33680512940413,
+        "previousPeriod": "2024",
+        "peerMedian": 0.8569101203814296,
+        "state": "structural",
+        "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "neutral",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-manufacturing",
+      "name": "Manufacturing value added",
+      "pillar": "industry",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "% GDP",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/NV.IND.MANF.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 17.613151047784,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 14.2709445725283,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 9.48622447878377,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 15.0015896468486,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 10.0816646290076,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 15.0456983931731,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 10.5250313827085,
+          "period": "2021"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 24.7344421687689,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 17.613151047784,
+        "period": "2025",
+        "previousValue": 18.0067082931968,
+        "previousPeriod": "2024",
+        "peerMedian": 14.63626710968845,
+        "state": "structural",
+        "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "neutral",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-high-tech-exports",
+      "name": "High-tech exports",
+      "pillar": "trade",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/TX.VAL.TECH.MF.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 17.9772990379432,
+          "period": "2024"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 20.6188532892774,
+          "period": "2024"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 23.1371073769038,
+          "period": "2024"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 12.2827088504022,
+          "period": "2024"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 23.4680052763745,
+          "period": "2024"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 13.5099699026858,
+          "period": "2024"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 24.322982844202,
+          "period": "2024"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 26.2777380479223,
+          "period": "2024"
+        }
+      ],
+      "germany": {
+        "value": 17.9772990379432,
+        "period": "2024",
+        "previousValue": 17.7818374796623,
+        "previousPeriod": "2023",
+        "peerMedian": 23.1371073769038,
+        "state": "structural",
+        "explanation": "2024: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-working-age",
+      "name": "Working-age population",
+      "pillar": "labour",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/SP.POP.1564.TO.ZS?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 62.4109003911736,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 63.3497827617988,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 61.2332346265978,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 63.2446962834167,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 64.1971668222159,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 64.7857886031795,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 64.5137336553454,
+          "period": "2025"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 69.6812776464024,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 62.4109003911736,
+        "period": "2025",
+        "previousValue": 62.8942524078782,
+        "previousPeriod": "2024",
+        "peerMedian": 64.1971668222159,
+        "state": "structural",
+        "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-old-age",
+      "name": "Old-age dependency",
+      "pillar": "labour",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": "%",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/SP.POP.DPND.OL?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 37.9792598551767,
+          "period": "2025"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 35.4267830734192,
+          "period": "2025"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 36.8131629312339,
+          "period": "2025"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 39.6841788691391,
+          "period": "2025"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 32.5073106994744,
+          "period": "2025"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 32.0345380648211,
+          "period": "2025"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 28.5012566906904,
+          "period": "2025"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 21.3994805378158,
+          "period": "2025"
+        }
+      ],
+      "germany": {
+        "value": 37.9792598551767,
+        "period": "2025",
+        "previousValue": 36.8802967502303,
+        "previousPeriod": "2024",
+        "peerMedian": 32.5073106994744,
+        "state": "structural",
+        "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-lower",
+          "noiseBand": 0.5
+        }
+      }
+    },
+    {
+      "id": "global-broadband",
+      "name": "Fixed broadband subscriptions",
+      "pillar": "state",
+      "frequency": "Annual",
+      "decimals": 1,
+      "suffix": " /100",
+      "source": {
+        "name": "World Bank WDI",
+        "url": "https://api.worldbank.org/v2/country/DEU;EUU;FRA;ITA;NLD;POL;USA;CHN/indicator/IT.NET.BBND.P2?format=json&per_page=200&date=2018%3A2026"
+      },
+      "peers": [
+        {
+          "code": "DEU",
+          "shortLabel": "DE",
+          "value": 45.6069242965787,
+          "period": "2024"
+        },
+        {
+          "code": "EUU",
+          "shortLabel": "EU",
+          "value": 38.6802657254509,
+          "period": "2022"
+        },
+        {
+          "code": "FRA",
+          "shortLabel": "FR",
+          "value": 48.9251978969333,
+          "period": "2024"
+        },
+        {
+          "code": "ITA",
+          "shortLabel": "IT",
+          "value": 31.7807732477772,
+          "period": "2024"
+        },
+        {
+          "code": "NLD",
+          "shortLabel": "NL",
+          "value": 42.9782483069868,
+          "period": "2024"
+        },
+        {
+          "code": "POL",
+          "shortLabel": "PL",
+          "value": 25.3612522999634,
+          "period": "2024"
+        },
+        {
+          "code": "USA",
+          "shortLabel": "US",
+          "value": 38.8571729185246,
+          "period": "2024"
+        },
+        {
+          "code": "CHN",
+          "shortLabel": "CN",
+          "value": 47.1933952081567,
+          "period": "2024"
+        }
+      ],
+      "germany": {
+        "value": 45.6069242965787,
+        "period": "2024",
+        "previousValue": 45.380522509099,
+        "previousPeriod": "2023",
+        "peerMedian": 40.9177106127557,
+        "state": "structural",
+        "explanation": "2024: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "rule": {
+          "direction": "structural-higher",
+          "noiseBand": 0.5
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_264_441.html",
+      "title": "Auftragseingang im Bauhauptgewerbe im Mai 2026: +3,3 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_264_441.html",
+      "publishedAt": "2026-07-24T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Macro & demand",
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_268_614.html",
+      "title": "Importpreise im Juni 2026: +6,1 % gegenüber Juni 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_268_614.html",
+      "publishedAt": "2026-07-29T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    }
+  ],
+  "sourceHealth": [
+    {
+      "id": "eurostat",
+      "name": "Eurostat EU panel",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank global panel",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    },
+    {
+      "id": "news-destatis",
+      "name": "Destatis feed",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    },
+    {
+      "id": "news-bundesbank",
+      "name": "Deutsche Bundesbank feed",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    },
+    {
+      "id": "news-bundesbank-press",
+      "name": "Deutsche Bundesbank · Press feed",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    },
+    {
+      "id": "news-sap",
+      "name": "SAP News feed",
+      "status": "fresh",
+      "lastSuccessAt": "2026-07-30T07:37:04.018Z",
+      "message": null
+    }
+  ],
+  "transmissionChain": [
+    {
+      "title": "Inputs & bottlenecks",
+      "description": "Energy, labour availability and state capacity shape the feasible operating environment.",
+      "pillars": [
+        "costs",
+        "labour",
+        "state"
+      ],
+      "state": "improving",
+      "signals": [
+        {
+          "label": "Nominal unit labour cost index",
+          "state": "mixed"
+        },
+        {
+          "label": "Industrial electricity price",
+          "state": "improving"
+        },
+        {
+          "label": "Industrial gas price",
+          "state": "improving"
+        }
+      ]
+    },
+    {
+      "title": "Investment & productivity",
+      "description": "Capital formation and innovation determine whether constraints translate into renewal or erosion.",
+      "pillars": [
+        "investment",
+        "innovation",
+        "productivity"
+      ],
+      "state": "mixed",
+      "signals": [
+        {
+          "label": "Real GDP growth",
+          "state": "mixed"
+        },
+        {
+          "label": "Real productivity per hour",
+          "state": "mixed"
+        },
+        {
+          "label": "Gross fixed capital formation",
+          "state": "structural"
+        }
+      ]
+    },
+    {
+      "title": "Industry & trade outcomes",
+      "description": "Production and export structure show where competitiveness is being won or lost.",
+      "pillars": [
+        "industry",
+        "trade"
+      ],
+      "state": "mixed",
+      "signals": [
+        {
+          "label": "Industrial production",
+          "state": "mixed"
+        },
+        {
+          "label": "Manufacturing value added",
+          "state": "structural"
+        },
+        {
+          "label": "High-tech exports",
+          "state": "structural"
+        }
+      ]
+    }
+  ],
+  "brief": {
+    "headline": "More timely signals are improving than deteriorating.",
+    "summary": "Improvement is visible in Industrial electricity price and Industrial gas price.",
+    "counts": {
+      "improving": 2,
+      "deteriorating": 0,
+      "mixed": 5,
+      "structural": 3
+    }
+  },
+  "methodology": {
+    "noiseBands": [
+      {
+        "label": "GDP, productivity and unit labour costs",
+        "value": "0.2 percentage points"
+      },
+      {
+        "label": "Industrial production",
+        "value": "1 index point"
+      },
+      {
+        "label": "Unemployment",
+        "value": "0.1 percentage points"
+      },
+      {
+        "label": "Annual ratios",
+        "value": "0.5 percentage points"
+      }
+    ]
+  }
+}
