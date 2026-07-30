@@ -1,6 +1,6 @@
 ---
 project: germany-competitiveness-dashboard
-status: active
+status: complete
 level: 2
 created: 2026-07-30
 ---
@@ -39,4 +39,5 @@ Build a mobile-friendly personal dashboard that tests Germany's competitiveness 
 - Runtime: static HTML/CSS/JavaScript; Node.js standard library for refresh tooling
 - Primary data: Eurostat and World Bank WDI, with selected official German sources
 - Primary news: Destatis and Bundesbank official feeds, plus clearly labelled SAP corporate releases
-- Publication requires renewed GitHub CLI authentication
+- Repository: `ganeshasubramaniam/germany-competitiveness-dashboard`
+- Production: `https://ganeshasubramaniam.github.io/germany-competitiveness-dashboard/`

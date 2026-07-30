@@ -2,6 +2,8 @@
 
 A public, mobile-friendly evidence dashboard for tracking Germany's competitiveness against European peers and annual global benchmarks.
 
+**Live dashboard:** https://ganeshasubramaniam.github.io/germany-competitiveness-dashboard/
+
 ## Local use
 
 ```bash
@@ -22,4 +24,4 @@ The dashboard refresh is deterministic and uses no paid API or language model.
 
 ## Publishing
 
-GitHub Actions refreshes the data each morning, runs tests, commits changed snapshots, and deploys `site/` to GitHub Pages.
+GitHub Actions refreshes the data daily at 05:17 UTC, runs tests, commits changed snapshots, and deploys `site/` to GitHub Pages.
