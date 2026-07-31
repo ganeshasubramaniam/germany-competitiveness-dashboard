@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T09:02:29.084Z",
-  "status": "healthy",
+  "generatedAt": "2026-07-31T08:10:04.859Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -199,7 +199,7 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 0.6,
+          "value": 0.7,
           "period": "2026-Q1"
         },
         {
@@ -223,8 +223,8 @@
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 0.4,
-          "period": "2026-Q1"
+          "value": 0.8,
+          "period": "2026-Q2"
         },
         {
           "code": "PL",
@@ -234,13 +234,13 @@
         }
       ],
       "germany": {
-        "value": 0.6,
+        "value": 0.7,
         "period": "2026-Q1",
-        "previousValue": 0.4,
+        "previousValue": 0.1,
         "previousPeriod": "2025-Q1",
-        "peerMedian": 0.3,
+        "peerMedian": 0.15,
         "state": "mixed",
-        "explanation": "2026-Q1: rose by 0.2% versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q1: rose by 0.6% versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -1126,7 +1126,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1201,7 +1203,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1501,7 +1505,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
@@ -1527,6 +1533,27 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_270_611.html",
+      "title": "Inflationsrate im Juli 2026 voraussichtlich +2,8 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_270_611.html",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_269_811.html",
@@ -1576,42 +1603,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "message": "7/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-30T09:02:29.084Z",
+      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
       "message": null
     }
   ],
