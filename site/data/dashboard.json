@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T08:10:04.859Z",
-  "status": "degraded",
+  "generatedAt": "2026-08-01T07:38:17.268Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -1126,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1203,9 +1201,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1505,9 +1501,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
@@ -1603,42 +1597,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
-      "message": "7/10 series refreshed. This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-07-31T08:10:04.859Z",
+      "lastSuccessAt": "2026-08-01T07:38:17.268Z",
       "message": null
     }
   ],
