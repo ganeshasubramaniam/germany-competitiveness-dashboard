@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T07:41:25.955Z",
-  "status": "healthy",
+  "generatedAt": "2026-08-02T19:18:03.170Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -1351,7 +1351,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "HTTP 400 from api.worldbank.org"
     },
     {
       "id": "global-old-age",
@@ -1597,42 +1599,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "message": "9/10 series refreshed. HTTP 400 from api.worldbank.org"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T07:41:25.955Z",
+      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
       "message": null
     }
   ],
