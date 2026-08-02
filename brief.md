@@ -7,6 +7,10 @@ created: 2026-07-30
 
 # Germany Competitiveness Dashboard
 
+> **This folder is its own git repository.** Remote: `ganeshasubramaniam/germany-competitiveness-dashboard`. Live at https://ganeshasubramaniam.github.io/germany-competitiveness-dashboard/ with `daily-refresh.yml` refreshing data daily.
+>
+> AgenticOS deliberately does not track this folder's contents — the root `git status` showing it as untracked is expected. Commit from inside this folder. Do not delete the inner `.git`; that breaks the live deployment and the daily refresh.
+
 ## Goal
 
 Build a mobile-friendly personal dashboard that tests Germany's competitiveness narrative against evidence rather than headlines alone. It must update automatically, compare Germany with relevant peers, explain changes transparently, and surface only consequential economic and business news.
