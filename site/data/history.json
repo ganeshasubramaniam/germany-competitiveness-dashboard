@@ -1713,6 +1713,131 @@
           "state": "structural"
         }
       ]
+    },
+    {
+      "generatedAt": "2026-08-02T07:41:25.955Z",
+      "indicators": [
+        {
+          "id": "real-gdp-qoq",
+          "value": 0.2,
+          "period": "2026-Q2",
+          "state": "mixed"
+        },
+        {
+          "id": "productivity-hourly",
+          "value": 0.7,
+          "period": "2026-Q1",
+          "state": "mixed"
+        },
+        {
+          "id": "unit-labour-cost",
+          "value": 122.654,
+          "period": "2026-Q1",
+          "state": "mixed"
+        },
+        {
+          "id": "industrial-electricity-price",
+          "value": 0.1613,
+          "period": "2025-S2",
+          "state": "improving"
+        },
+        {
+          "id": "industrial-gas-price",
+          "value": 0.0428,
+          "period": "2025-S2",
+          "state": "improving"
+        },
+        {
+          "id": "industrial-production",
+          "value": 91.8,
+          "period": "2026-05",
+          "state": "mixed"
+        },
+        {
+          "id": "unemployment",
+          "value": 3.9,
+          "period": "2026-06",
+          "state": "deteriorating"
+        },
+        {
+          "id": "investment-share",
+          "value": 20.3,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "rd-intensity-eu",
+          "value": 3.13,
+          "period": "2024",
+          "state": "structural"
+        },
+        {
+          "id": "old-age-dependency-eu",
+          "value": 35.9,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-gdp-growth",
+          "value": 0.239578342117881,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-productivity",
+          "value": 125086.345177807,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-investment",
+          "value": 20.312556628657,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-rd",
+          "value": 3.1539,
+          "period": "2023",
+          "state": "structural"
+        },
+        {
+          "id": "global-fdi",
+          "value": 1.88462297077013,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-manufacturing",
+          "value": 17.613151047784,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-high-tech-exports",
+          "value": 17.9772990379432,
+          "period": "2024",
+          "state": "structural"
+        },
+        {
+          "id": "global-working-age",
+          "value": 62.4109003911736,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-old-age",
+          "value": 37.9792598551767,
+          "period": "2025",
+          "state": "structural"
+        },
+        {
+          "id": "global-broadband",
+          "value": 45.6069242965787,
+          "period": "2024",
+          "state": "structural"
+        }
+      ]
     }
   ]
 }
