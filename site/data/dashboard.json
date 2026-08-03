@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T19:18:03.170Z",
+  "generatedAt": "2026-08-03T08:42:38.129Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -1353,7 +1353,7 @@
         }
       },
       "stale": true,
-      "staleReason": "HTTP 400 from api.worldbank.org"
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1508,27 +1508,25 @@
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_264_441.html",
-      "title": "Auftragseingang im Bauhauptgewerbe im Mai 2026: +3,3 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_264_441.html",
-      "publishedAt": "2026-07-24T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_272_45212.html",
+      "title": "Einzelhandelsumsatz im Juni 2026 real um 1,1 % niedriger als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_272_45212.html",
+      "publishedAt": "2026-08-03T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Macro & demand",
-        "Industry & investment"
+        "Trade & resilience"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_270_611.html",
@@ -1599,42 +1597,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "stale",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
-      "message": "9/10 series refreshed. HTTP 400 from api.worldbank.org"
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
+      "message": "9/10 series refreshed. This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-02T19:18:03.170Z",
+      "lastSuccessAt": "2026-08-03T08:42:38.129Z",
       "message": null
     }
   ],
