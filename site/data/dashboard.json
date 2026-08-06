@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T07:49:23.555Z",
+  "generatedAt": "2026-08-06T07:49:33.978Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1506,6 +1506,29 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_276_421.html",
+      "title": "Auftragseingang im Verarbeitenden Gewerbe im Juni 2026: +3,1 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_276_421.html",
+      "publishedAt": "2026-08-06T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Macro & demand",
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_273_73111.html",
       "title": "72 % der Rentenleistungen im Jahr 2025 waren einkommensteuerpflichtig",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_273_73111.html",
@@ -1569,46 +1592,24 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_269_811.html",
-      "title": "Bruttoinlandsprodukt im 2. Quartal 2026 um 0,2 % höher als im Vorquartal",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_269_811.html",
-      "publishedAt": "2026-07-30T08:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_275_212.html",
+      "title": "Duale Berufsausbildung 2025: Top-Beruf bei Männern erneut Kfz-Mechatroniker, bei Frauen medizinische Fachangestellte",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_275_212.html",
+      "publishedAt": "2026-08-06T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 8,
+      "score": 6,
       "topics": [
-        "Macro & demand"
+        "Labour & skills"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
+        "priority topic +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_268_614.html",
-      "title": "Importpreise im Juni 2026: +6,1 % gegenüber Juni 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_268_614.html",
-      "publishedAt": "2026-07-29T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Labour supply and skills constrain potential output and project delivery. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1616,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-05T07:49:23.555Z",
+      "lastSuccessAt": "2026-08-06T07:49:33.978Z",
       "message": null
     }
   ],
