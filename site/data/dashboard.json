@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T06:19:55.963Z",
-  "status": "degraded",
+  "generatedAt": "2026-08-08T05:56:51.020Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -1053,9 +1051,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-fdi",
@@ -1130,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1432,9 +1426,7 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-broadband",
@@ -1537,27 +1529,6 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
-      "title": "Produktion im Juni 2026: +0,2 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
-      "publishedAt": "2026-08-07T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
       "title": "Exporte im Juni 2026: +0,9 % zum Mai 2026",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
@@ -1579,8 +1550,29 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
+      "title": "Produktion im Juni 2026: +0,2 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
+      "publishedAt": "2026-08-07T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_281_413.html",
-      "title": "Fleischproduktion im 1. Halbjahr 2026 um 0,7 % gesunken",
+      "title": "KORREKTUR: Fleischproduktion im 1. Halbjahr 2026 um 0,4 % (alt: 0,7 %) gesunken",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_281_413.html",
       "publishedAt": "2026-08-07T06:00:00.000Z",
       "source": "Destatis",
@@ -1626,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
-      "message": "6/10 series refreshed. This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-07T06:19:55.963Z",
+      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
       "message": null
     }
   ],
