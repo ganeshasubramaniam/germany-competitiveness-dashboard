@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T05:56:51.020Z",
-  "status": "healthy",
+  "generatedAt": "2026-08-09T05:58:22.308Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -451,8 +451,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 91.8,
-          "period": "2026-05"
+          "value": 92.1,
+          "period": "2026-06"
         },
         {
           "code": "EU27_2020",
@@ -486,13 +486,13 @@
         }
       ],
       "germany": {
-        "value": 91.8,
-        "period": "2026-05",
+        "value": 92.1,
+        "period": "2026-06",
         "previousValue": 92.4,
-        "previousPeriod": "2025-05",
-        "peerMedian": 102.55,
+        "previousPeriod": "2025-06",
+        "peerMedian": 103.6,
         "state": "mixed",
-        "explanation": "2026-05: fell by 0.6 versus 2025-05, inside the 1-point noise band or subject to a data flag.",
+        "explanation": "2026-06: fell by 0.3 versus 2025-06, inside the 1-point noise band or subject to a data flag.",
         "rule": {
           "direction": "higher",
           "noiseBand": 1
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -1051,7 +1053,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "HTTP 502 from api.worldbank.org"
     },
     {
       "id": "global-fdi",
@@ -1351,7 +1355,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1618,42 +1624,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
+      "message": "7/10 series refreshed. This operation was aborted HTTP 502 from api.worldbank.org"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-08T05:56:51.020Z",
+      "lastSuccessAt": "2026-08-09T05:58:22.308Z",
       "message": null
     }
   ],
