@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T06:42:59.679Z",
+  "generatedAt": "2026-08-11T06:04:38.434Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -475,8 +475,8 @@
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 104.8,
-          "period": "2026-05"
+          "value": 104.6,
+          "period": "2026-06"
         },
         {
           "code": "PL",
@@ -490,7 +490,7 @@
         "period": "2026-06",
         "previousValue": 92.4,
         "previousPeriod": "2025-06",
-        "peerMedian": 103.6,
+        "peerMedian": 104.1,
         "state": "mixed",
         "explanation": "2026-06: fell by 0.3 versus 2025-06, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -1617,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-10T06:42:59.679Z",
+      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
       "message": null
     }
   ],
