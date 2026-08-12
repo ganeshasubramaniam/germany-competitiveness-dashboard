@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T06:04:38.434Z",
-  "status": "healthy",
+  "generatedAt": "2026-08-12T06:43:04.643Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -901,7 +901,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +978,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1529,6 +1533,27 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
+      "title": "Inflationsrate im Juli 2026 bei +2,8 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
+      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
       "title": "Exporte im Juni 2026: +0,9 % zum Mai 2026",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
@@ -1590,26 +1615,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_275_212.html",
-      "title": "Duale Berufsausbildung 2025: Top-Beruf bei Männern erneut Kfz-Mechatroniker, bei Frauen medizinische Fachangestellte",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_275_212.html",
-      "publishedAt": "2026-08-06T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 6,
-      "topics": [
-        "Labour & skills"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2"
-      ],
-      "whyItMatters": "Labour supply and skills constrain potential output and project delivery. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1617,42 +1622,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "message": "8/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-11T06:04:38.434Z",
+      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
       "message": null
     }
   ],
