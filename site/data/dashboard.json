@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T06:43:04.643Z",
+  "generatedAt": "2026-08-13T06:46:13.311Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -355,7 +355,7 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 0.1113,
+          "value": 0.1127,
           "period": "2025-S2"
         }
       ],
@@ -901,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -978,9 +976,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-rd",
@@ -1130,7 +1126,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1205,7 +1203,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1280,7 +1280,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-working-age",
@@ -1355,7 +1357,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1430,7 +1434,9 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-broadband",
@@ -1505,33 +1511,12 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_276_421.html",
-      "title": "Auftragseingang im Verarbeitenden Gewerbe im Juni 2026: +3,1 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_276_421.html",
-      "publishedAt": "2026-08-06T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 10,
-      "topics": [
-        "Macro & demand",
-        "Industry & investment"
-      ],
-      "polarity": "positive",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "binding or company event +3",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
-    },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
       "title": "Inflationsrate im Juli 2026 bei +2,8 %",
@@ -1594,27 +1579,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_281_413.html",
-      "title": "KORREKTUR: Fleischproduktion im 1. Halbjahr 2026 um 0,4 % (alt: 0,7 %) gesunken",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_281_413.html",
-      "publishedAt": "2026-08-07T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1622,42 +1586,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "stale",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
-      "message": "8/10 series refreshed. This operation was aborted This operation was aborted"
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "message": "4/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-12T06:43:04.643Z",
+      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
       "message": null
     }
   ],
