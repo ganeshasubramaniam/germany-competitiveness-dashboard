@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T06:46:13.311Z",
-  "status": "degraded",
+  "generatedAt": "2026-08-14T06:42:54.214Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -166,8 +166,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 0.6,
-          "period": "2026-Q1"
+          "value": 0.9,
+          "period": "2026-Q2"
         }
       ],
       "germany": {
@@ -175,7 +175,7 @@
         "period": "2026-Q2",
         "previousValue": 0,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.30000000000000004,
+        "peerMedian": 0.4,
         "state": "mixed",
         "explanation": "2026-Q2: rose by 0.2% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
@@ -292,7 +292,7 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 144.208,
+          "value": 144.174,
           "period": "2026-Q1"
         }
       ],
@@ -457,8 +457,8 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 100.3,
-          "period": "2026-05"
+          "value": 101,
+          "period": "2026-06"
         },
         {
           "code": "FR",
@@ -490,7 +490,7 @@
         "period": "2026-06",
         "previousValue": 92.4,
         "previousPeriod": "2025-06",
-        "peerMedian": 104.1,
+        "peerMedian": 103.6,
         "state": "mixed",
         "explanation": "2026-06: fell by 0.3 versus 2025-06, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -1126,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1203,9 +1201,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1280,9 +1276,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-working-age",
@@ -1357,9 +1351,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-old-age",
@@ -1434,9 +1426,7 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-broadband",
@@ -1511,17 +1501,37 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
-      "title": "Inflationsrate im Juli 2026 bei +2,8 %",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
-      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html",
+      "title": "Stellenabbau in der Automobilindustrie: 42 300 weniger Beschäftigte zum Ende des 1. Halbjahres 2026 als ein Jahr zuvor",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html",
+      "publishedAt": "2026-08-14T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 9,
+      "topics": [
+        "Industry & investment",
+        "Labour & skills"
+      ],
+      "polarity": "negative",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3"
+      ],
+      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a negative signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_288_52411.html",
+      "title": "Unternehmensinsolvenzen im Mai 2026: -2,0 % gegenüber Mai 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_288_52411.html",
+      "publishedAt": "2026-08-14T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
@@ -1530,19 +1540,19 @@
       "topics": [
         "Macro & demand"
       ],
-      "polarity": "mixed",
+      "polarity": "negative",
       "rules": [
         "authority +4",
         "priority topic +2",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a negative signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
-      "title": "Exporte im Juni 2026: +0,9 % zum Mai 2026",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_278_51.html",
-      "publishedAt": "2026-08-07T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_285_61281.html",
+      "title": "Großhandelspreise im Juli 2026: +5,3 % gegenüber Juli 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_285_61281.html",
+      "publishedAt": "2026-08-14T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
@@ -1560,10 +1570,10 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
-      "title": "Produktion im Juni 2026: +0,2 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
-      "publishedAt": "2026-08-07T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
+      "title": "Inflationsrate im Juli 2026 bei +2,8 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
+      "publishedAt": "2026-08-12T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
@@ -1586,42 +1596,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
-      "message": "4/10 series refreshed. This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-13T06:46:13.311Z",
+      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
       "message": null
     }
   ],
