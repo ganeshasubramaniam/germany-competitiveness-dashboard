@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T06:42:54.214Z",
-  "status": "healthy",
+  "generatedAt": "2026-08-15T05:42:13.155Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -1051,7 +1055,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1201,7 +1207,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1596,42 +1604,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
+      "message": "6/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-14T06:42:54.214Z",
+      "lastSuccessAt": "2026-08-15T05:42:13.155Z",
       "message": null
     }
   ],
