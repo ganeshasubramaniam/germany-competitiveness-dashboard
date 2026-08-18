@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T05:50:58.378Z",
+  "generatedAt": "2026-08-18T05:45:43.511Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -903,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -1134,9 +1130,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1211,9 +1205,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1288,9 +1280,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-working-age",
@@ -1519,9 +1509,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
@@ -1546,6 +1534,27 @@
         "binding or company event +3"
       ],
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a negative signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N058_21.html",
+      "title": "Unter EU-Schnitt: 10,0 % der 20- bis 24-Jährigen in Deutschland sind nicht in Ausbildung oder Beschäftigung",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N058_21.html",
+      "publishedAt": "2026-08-17T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Labour & skills"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Labour supply and skills constrain potential output and project delivery. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_288_52411.html",
@@ -1590,25 +1599,24 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
-      "title": "Inflationsrate im Juli 2026 bei +2,8 %",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
-      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
+      "title": "Haushalte geben im Schnitt knapp ein Zehntel ihrer Konsumausgaben für Freizeit, Sport und Kultur aus",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
+      "publishedAt": "2026-08-17T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 8,
+      "score": 6,
       "topics": [
-        "Macro & demand"
+        "Finance & capital"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
+        "priority topic +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1616,42 +1624,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-17T05:50:58.378Z",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "failed",
-      "lastSuccessAt": "2026-08-16T05:44:17.152Z",
-      "message": "This operation was aborted This operation was aborted"
+      "status": "stale",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
+      "message": "6/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-17T05:50:58.378Z",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-17T05:50:58.378Z",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-17T05:50:58.378Z",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-17T05:50:58.378Z",
+      "lastSuccessAt": "2026-08-18T05:45:43.511Z",
       "message": null
     }
   ],
