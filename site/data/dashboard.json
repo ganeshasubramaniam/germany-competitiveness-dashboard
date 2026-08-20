@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T05:47:12.979Z",
+  "generatedAt": "2026-08-20T05:46:33.732Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -199,8 +199,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 0.7,
-          "period": "2026-Q1"
+          "value": 1,
+          "period": "2026-Q2"
         },
         {
           "code": "EU27_2020",
@@ -234,13 +234,13 @@
         }
       ],
       "germany": {
-        "value": 0.7,
-        "period": "2026-Q1",
-        "previousValue": 0.1,
-        "previousPeriod": "2025-Q1",
-        "peerMedian": 0.15,
-        "state": "mixed",
-        "explanation": "2026-Q1: rose by 0.6% versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "value": 1,
+        "period": "2026-Q2",
+        "previousValue": 0.5,
+        "previousPeriod": "2025-Q2",
+        "peerMedian": 0.8,
+        "state": "improving",
+        "explanation": "2026-Q2: rose by 0.5% versus 2025-Q2; that is improving under the published direction rule.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -262,8 +262,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 122.654,
-          "period": "2026-Q1"
+          "value": null,
+          "period": null
         },
         {
           "code": "EU27_2020",
@@ -297,13 +297,13 @@
         }
       ],
       "germany": {
-        "value": 122.654,
-        "period": "2026-Q1",
-        "previousValue": 119.168,
-        "previousPeriod": "2025-Q1",
-        "peerMedian": 122.001,
-        "state": "mixed",
-        "explanation": "2026-Q1: rose by 3.5 versus 2025-Q1. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "value": null,
+        "period": null,
+        "previousValue": null,
+        "previousPeriod": null,
+        "peerMedian": null,
+        "state": "no-verdict",
+        "explanation": "No comparable German observation is available.",
         "rule": {
           "direction": "lower",
           "noiseBand": 0.5
@@ -1506,26 +1506,26 @@
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html",
-      "title": "Stellenabbau in der Automobilindustrie: 42 300 weniger Beschäftigte zum Ende des 1. Halbjahres 2026 als ein Jahr zuvor",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html",
-      "publishedAt": "2026-08-14T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_294_421.html",
+      "title": "Auftragsbestand im Verarbeitenden Gewerbe im Juni 2026: +0,8 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_294_421.html",
+      "publishedAt": "2026-08-19T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 9,
+      "score": 10,
       "topics": [
-        "Industry & investment",
-        "Labour & skills"
+        "Industry & investment"
       ],
-      "polarity": "negative",
+      "polarity": "positive",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3"
+        "binding or company event +3",
+        "quantified magnitude +2"
       ],
-      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a negative signal under the headline rule, not a forecast."
+      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
@@ -1570,27 +1570,6 @@
       "whyItMatters": "Labour supply and skills constrain potential output and project delivery. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_288_52411.html",
-      "title": "Unternehmensinsolvenzen im Mai 2026: -2,0 % gegenüber Mai 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_288_52411.html",
-      "publishedAt": "2026-08-14T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "negative",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a negative signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
       "title": "Haushalte geben im Schnitt knapp ein Zehntel ihrer Konsumausgaben für Freizeit, Sport und Kultur aus",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
@@ -1616,42 +1595,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-19T05:47:12.979Z",
+      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
       "message": null
     }
   ],
@@ -1668,7 +1647,7 @@
       "signals": [
         {
           "label": "Nominal unit labour cost index",
-          "state": "mixed"
+          "state": "no-verdict"
         },
         {
           "label": "Industrial electricity price",
@@ -1688,7 +1667,7 @@
         "innovation",
         "productivity"
       ],
-      "state": "mixed",
+      "state": "improving",
       "signals": [
         {
           "label": "Real GDP growth",
@@ -1696,7 +1675,7 @@
         },
         {
           "label": "Real productivity per hour",
-          "state": "mixed"
+          "state": "improving"
         },
         {
           "label": "Gross fixed capital formation",
@@ -1729,12 +1708,12 @@
     }
   ],
   "brief": {
-    "headline": "The current evidence is mixed rather than one-directional.",
-    "summary": "Pressure is clearest in Unemployment rate. Improvement is visible in Industrial electricity price and Industrial gas price.",
+    "headline": "More timely signals are improving than deteriorating.",
+    "summary": "Pressure is clearest in Unemployment rate. Improvement is visible in Real productivity per hour and Industrial electricity price.",
     "counts": {
-      "improving": 2,
+      "improving": 3,
       "deteriorating": 1,
-      "mixed": 4,
+      "mixed": 2,
       "structural": 3
     }
   },
