@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T05:46:33.732Z",
+  "generatedAt": "2026-08-21T05:48:54.959Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -538,8 +538,8 @@
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 3.8,
-          "period": "2026-06"
+          "value": 4,
+          "period": "2026-07"
         },
         {
           "code": "PL",
@@ -553,7 +553,7 @@
         "period": "2026-06",
         "previousValue": 3.7,
         "previousPeriod": "2025-06",
-        "peerMedian": 5.7,
+        "peerMedian": 5.85,
         "state": "deteriorating",
         "explanation": "2026-06: rose by 0.2% versus 2025-06; that is deteriorating under the published direction rule.",
         "rule": {
@@ -1528,6 +1528,48 @@
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_299_45213.html",
+      "title": "Gastgewerbeumsatz im Juni 2026 real 1,2 % niedriger als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_299_45213.html",
+      "publishedAt": "2026-08-20T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_296_51.html",
+      "title": "Deutsche Exporte im 1. Halbjahr 2026: +3,9 % zum Vorjahreszeitraum",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_296_51.html",
+      "publishedAt": "2026-08-20T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
       "title": "Baugenehmigungen für Wohnungen im Juni 2026: +13,8 % zum Vorjahresmonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
@@ -1549,45 +1591,24 @@
       "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N058_21.html",
-      "title": "Unter EU-Schnitt: 10,0 % der 20- bis 24-Jährigen in Deutschland sind nicht in Ausbildung oder Beschäftigung",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N058_21.html",
-      "publishedAt": "2026-08-17T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Labour & skills"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Labour supply and skills constrain potential output and project delivery. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
-      "title": "Haushalte geben im Schnitt knapp ein Zehntel ihrer Konsumausgaben für Freizeit, Sport und Kultur aus",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_290_639.html",
-      "publishedAt": "2026-08-17T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_297_51.html",
+      "title": "Entlastung der Unternehmen von Berichtspflichten im EU-Binnenhandel",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_297_51.html",
+      "publishedAt": "2026-08-20T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
       "score": 6,
       "topics": [
-        "Finance & capital"
+        "Trade & resilience"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2"
       ],
-      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1595,42 +1616,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-20T05:46:33.732Z",
+      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
       "message": null
     }
   ],
