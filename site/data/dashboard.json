@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T05:48:54.959Z",
+  "generatedAt": "2026-08-22T05:43:09.964Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1570,27 +1570,6 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
-      "title": "Baugenehmigungen für Wohnungen im Juni 2026: +13,8 % zum Vorjahresmonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
-      "publishedAt": "2026-08-18T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Regulation & competition"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_297_51.html",
       "title": "Entlastung der Unternehmen von Berichtspflichten im EU-Binnenhandel",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_297_51.html",
@@ -1616,42 +1595,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-21T05:48:54.959Z",
+      "lastSuccessAt": "2026-08-22T05:43:09.964Z",
       "message": null
     }
   ],
