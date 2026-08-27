@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T05:50:47.473Z",
+  "generatedAt": "2026-08-27T16:31:51.174Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1529,17 +1529,17 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_299_45213.html",
-      "title": "Gastgewerbeumsatz im Juni 2026 real 1,2 % niedriger als im Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_299_45213.html",
-      "publishedAt": "2026-08-20T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
+      "title": "Festgesetzte Erbschaft- und Schenkungsteuer erreicht 2025 mit 21,4 Milliarden Euro neuen Höchstwert",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
+      "publishedAt": "2026-08-26T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
       "score": 8,
       "topics": [
-        "Energy & infrastructure"
+        "Regulation & competition"
       ],
       "polarity": "mixed",
       "rules": [
@@ -1547,7 +1547,7 @@
         "priority topic +2",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_303_811.html",
@@ -1575,42 +1575,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-26T05:50:47.473Z",
+      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
       "message": null
     }
   ],
