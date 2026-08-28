@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T16:31:51.174Z",
+  "generatedAt": "2026-08-28T17:27:00.814Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1529,6 +1529,27 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
+      "title": "Importpreise im Juli 2026: +6,8 % gegenüber Juli 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
+      "publishedAt": "2026-08-28T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
       "title": "Festgesetzte Erbschaft- und Schenkungsteuer erreicht 2025 mit 21,4 Milliarden Euro neuen Höchstwert",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
@@ -1575,42 +1596,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-27T16:31:51.174Z",
+      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
       "message": null
     }
   ],
