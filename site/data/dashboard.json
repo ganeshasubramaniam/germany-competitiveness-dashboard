@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T17:27:00.814Z",
+  "generatedAt": "2026-08-29T11:39:59.303Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -148,7 +148,7 @@
         {
           "code": "FR",
           "shortLabel": "FR",
-          "value": 0.2,
+          "value": 0,
           "period": "2026-Q2"
         },
         {
@@ -211,8 +211,8 @@
         {
           "code": "FR",
           "shortLabel": "FR",
-          "value": -0.1,
-          "period": "2026-Q1"
+          "value": 0.1,
+          "period": "2026-Q2"
         },
         {
           "code": "IT",
@@ -238,7 +238,7 @@
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.8,
+        "peerMedian": 0.45,
         "state": "improving",
         "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2; that is improving under the published direction rule.",
         "rule": {
@@ -1596,42 +1596,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-28T17:27:00.814Z",
+      "lastSuccessAt": "2026-08-29T11:39:59.303Z",
       "message": null
     }
   ],
