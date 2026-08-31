@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T10:29:18.140Z",
+  "generatedAt": "2026-08-31T11:36:45.526Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1596,42 +1596,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-30T10:29:18.140Z",
+      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
       "message": null
     }
   ],
