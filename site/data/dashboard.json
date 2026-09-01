@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:36:45.526Z",
+  "generatedAt": "2026-09-01T10:08:06.495Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -166,7 +166,7 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 0.9,
+          "value": 1,
           "period": "2026-Q2"
         }
       ],
@@ -217,8 +217,8 @@
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 0,
-          "period": "2026-Q1"
+          "value": -0.2,
+          "period": "2026-Q2"
         },
         {
           "code": "NL",
@@ -230,7 +230,7 @@
           "code": "PL",
           "shortLabel": "PL",
           "value": 0.6,
-          "period": "2026-Q1"
+          "period": "2026-Q2"
         }
       ],
       "germany": {
@@ -238,7 +238,7 @@
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.45,
+        "peerMedian": 0.35,
         "state": "improving",
         "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2; that is improving under the published direction rule.",
         "rule": {
@@ -292,8 +292,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 144.174,
-          "period": "2026-Q1"
+          "value": null,
+          "period": null
         }
       ],
       "germany": {
@@ -481,8 +481,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 116.3,
-          "period": "2026-06"
+          "value": 117,
+          "period": "2026-07"
         }
       ],
       "germany": {
@@ -490,7 +490,7 @@
         "period": "2026-06",
         "previousValue": 92.4,
         "previousPeriod": "2025-06",
-        "peerMedian": 103.6,
+        "peerMedian": 102.3,
         "state": "mixed",
         "explanation": "2026-06: fell by 0.3 versus 2025-06, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -514,26 +514,26 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 3.9,
-          "period": "2026-06"
+          "value": 4,
+          "period": "2026-07"
         },
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 6,
-          "period": "2026-06"
+          "value": 6.1,
+          "period": "2026-07"
         },
         {
           "code": "FR",
           "shortLabel": "FR",
-          "value": 8.2,
-          "period": "2026-06"
+          "value": 8.3,
+          "period": "2026-07"
         },
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 5.7,
-          "period": "2026-06"
+          "value": 5.8,
+          "period": "2026-07"
         },
         {
           "code": "NL",
@@ -544,18 +544,18 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 3.1,
-          "period": "2026-06"
+          "value": 3.4,
+          "period": "2026-07"
         }
       ],
       "germany": {
-        "value": 3.9,
-        "period": "2026-06",
-        "previousValue": 3.7,
-        "previousPeriod": "2025-06",
-        "peerMedian": 5.85,
+        "value": 4,
+        "period": "2026-07",
+        "previousValue": 3.8,
+        "previousPeriod": "2025-07",
+        "peerMedian": 5.8,
         "state": "deteriorating",
-        "explanation": "2026-06: rose by 0.2% versus 2025-06; that is deteriorating under the published direction rule.",
+        "explanation": "2026-07: rose by 0.2% versus 2025-07; that is deteriorating under the published direction rule.",
         "rule": {
           "direction": "lower",
           "noiseBand": 0.1
@@ -1506,27 +1506,46 @@
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_304_441.html",
-      "title": "Auftragseingang im Bauhauptgewerbe im Juni 2026: +6,0 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_304_441.html",
-      "publishedAt": "2026-08-25T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
+      "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
+      "publishedAt": "2026-09-01T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Macro & demand",
-        "Industry & investment"
+        "Trade & resilience"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
+      "title": "Inflationsrate im August 2026 voraussichtlich +2,9 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
+      "publishedAt": "2026-08-31T12:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
@@ -1571,24 +1590,24 @@
       "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_303_811.html",
-      "title": "Bruttoinlandsprodukt: Ausführliche Ergebnisse zur Wirtschaftsleistung im 2. Quartal 2026",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_303_811.html",
-      "publishedAt": "2026-08-25T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
+      "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
+      "publishedAt": "2026-09-01T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
       "score": 6,
       "topics": [
-        "Macro & demand"
+        "Finance & capital"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1596,42 +1615,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-08-31T11:36:45.526Z",
+      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
       "message": null
     }
   ],
