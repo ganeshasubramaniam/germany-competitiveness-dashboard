@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T10:08:06.495Z",
+  "generatedAt": "2026-09-02T09:38:51.323Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -280,8 +280,8 @@
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 114.441,
-          "period": "2026-Q1"
+          "value": null,
+          "period": null
         },
         {
           "code": "NL",
@@ -1615,42 +1615,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-01T10:08:06.495Z",
+      "lastSuccessAt": "2026-09-02T09:38:51.323Z",
       "message": null
     }
   ],
