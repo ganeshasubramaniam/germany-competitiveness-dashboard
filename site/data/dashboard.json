@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T09:52:16.449Z",
+  "generatedAt": "2026-09-04T09:40:33.841Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1506,6 +1506,29 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
+      "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
+      "publishedAt": "2026-09-04T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Macro & demand",
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
       "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
@@ -1569,27 +1592,6 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
-      "title": "Festgesetzte Erbschaft- und Schenkungsteuer erreicht 2025 mit 21,4 Milliarden Euro neuen Höchstwert",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
-      "publishedAt": "2026-08-26T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Regulation & competition"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
       "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
@@ -1615,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-03T09:52:16.449Z",
+      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
       "message": null
     }
   ],
