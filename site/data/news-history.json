@@ -2,18 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_270_611.html",
-      "title": "Inflationsrate im Juli 2026 voraussichtlich +2,8 %",
-      "firstSeenAt": "2026-07-31T08:10:04.859Z",
-      "lastSeenAt": "2026-08-06T07:49:33.978Z"
-    },
-    {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_272_45212.html",
-      "title": "Einzelhandelsumsatz im Juni 2026 real um 1,1 % niedriger als im Vormonat",
-      "firstSeenAt": "2026-08-03T08:42:38.129Z",
-      "lastSeenAt": "2026-08-06T07:49:33.978Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_273_73111.html",
       "title": "72 % der Rentenleistungen im Jahr 2025 waren einkommensteuerpflichtig",
       "firstSeenAt": "2026-08-04T07:48:18.597Z",
@@ -137,31 +125,31 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
       "title": "Importpreise im Juli 2026: +6,8 % gegenüber Juli 2025",
       "firstSeenAt": "2026-08-28T17:27:00.814Z",
-      "lastSeenAt": "2026-09-04T09:40:33.841Z"
+      "lastSeenAt": "2026-09-05T09:06:20.015Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
       "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-04T09:40:33.841Z"
+      "lastSeenAt": "2026-09-05T09:06:20.015Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
       "title": "Inflationsrate im August 2026 voraussichtlich +2,9 %",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-04T09:40:33.841Z"
+      "lastSeenAt": "2026-09-05T09:06:20.015Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
       "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-04T09:40:33.841Z"
+      "lastSeenAt": "2026-09-05T09:06:20.015Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
       "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
       "firstSeenAt": "2026-09-04T09:40:33.841Z",
-      "lastSeenAt": "2026-09-04T09:40:33.841Z"
+      "lastSeenAt": "2026-09-05T09:06:20.015Z"
     }
   ]
 }

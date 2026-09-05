@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T09:40:33.841Z",
+  "generatedAt": "2026-09-05T09:06:20.015Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -239,8 +239,8 @@
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
         "peerMedian": 0.35,
-        "state": "improving",
-        "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2; that is improving under the published direction rule.",
+        "state": "mixed",
+        "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -1617,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-04T09:40:33.841Z",
+      "lastSuccessAt": "2026-09-05T09:06:20.015Z",
       "message": null
     }
   ],
@@ -1689,7 +1689,7 @@
         "innovation",
         "productivity"
       ],
-      "state": "improving",
+      "state": "mixed",
       "signals": [
         {
           "label": "Real GDP growth",
@@ -1697,7 +1697,7 @@
         },
         {
           "label": "Real productivity per hour",
-          "state": "improving"
+          "state": "mixed"
         },
         {
           "label": "Gross fixed capital formation",
@@ -1730,12 +1730,12 @@
     }
   ],
   "brief": {
-    "headline": "More timely signals are improving than deteriorating.",
-    "summary": "Pressure is clearest in Unemployment rate. Improvement is visible in Real productivity per hour and Industrial electricity price.",
+    "headline": "The current evidence is mixed rather than one-directional.",
+    "summary": "Pressure is clearest in Unemployment rate. Improvement is visible in Industrial electricity price and Industrial gas price.",
     "counts": {
-      "improving": 3,
+      "improving": 2,
       "deteriorating": 1,
-      "mixed": 2,
+      "mixed": 3,
       "structural": 3
     }
   },
