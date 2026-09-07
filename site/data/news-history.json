@@ -125,19 +125,19 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
       "title": "Importpreise im Juli 2026: +6,8 % gegenüber Juli 2025",
       "firstSeenAt": "2026-08-28T17:27:00.814Z",
-      "lastSeenAt": "2026-09-06T09:27:15.990Z"
+      "lastSeenAt": "2026-09-07T10:20:09.754Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
       "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-06T09:27:15.990Z"
+      "lastSeenAt": "2026-09-07T10:20:09.754Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
       "title": "Inflationsrate im August 2026 voraussichtlich +2,9 %",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-06T09:27:15.990Z"
+      "lastSeenAt": "2026-09-07T10:20:09.754Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
@@ -149,7 +149,13 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
       "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
       "firstSeenAt": "2026-09-04T09:40:33.841Z",
-      "lastSeenAt": "2026-09-06T09:27:15.990Z"
+      "lastSeenAt": "2026-09-07T10:20:09.754Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
+      "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
+      "firstSeenAt": "2026-09-07T10:20:09.754Z",
+      "lastSeenAt": "2026-09-07T10:20:09.754Z"
     }
   ]
 }

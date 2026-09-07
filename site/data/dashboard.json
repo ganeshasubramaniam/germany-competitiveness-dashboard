@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T09:27:15.990Z",
+  "generatedAt": "2026-09-07T10:20:09.754Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -142,7 +142,7 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 0.5,
+          "value": 0.7,
           "period": "2026-Q2"
         },
         {
@@ -205,8 +205,8 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 0.3,
-          "period": "2026-Q1"
+          "value": 0.5,
+          "period": "2026-Q2"
         },
         {
           "code": "FR",
@@ -238,7 +238,7 @@
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.35,
+        "peerMedian": 0.5,
         "state": "mixed",
         "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
@@ -583,7 +583,7 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 21.5,
+          "value": 21.4,
           "period": "2025"
         },
         {
@@ -616,7 +616,7 @@
         "period": "2025",
         "previousValue": 20.5,
         "previousPeriod": "2024",
-        "peerMedian": 21.5,
+        "peerMedian": 21.4,
         "state": "structural",
         "explanation": "2025: Germany is below the available peer median. This is structural context, not a daily momentum call.",
         "rule": {
@@ -1529,6 +1529,27 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
+      "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
+      "publishedAt": "2026-09-07T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
       "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
@@ -1590,26 +1611,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
-      "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
-      "publishedAt": "2026-09-01T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 6,
-      "topics": [
-        "Finance & capital"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2"
-      ],
-      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1617,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-06T09:27:15.990Z",
+      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
       "message": null
     }
   ],
