@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_273_73111.html",
-      "title": "72 % der Rentenleistungen im Jahr 2025 waren einkommensteuerpflichtig",
-      "firstSeenAt": "2026-08-04T07:48:18.597Z",
-      "lastSeenAt": "2026-08-09T05:58:22.308Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_276_421.html",
       "title": "Auftragseingang im Verarbeitenden Gewerbe im Juni 2026: +3,1 % zum Vormonat",
       "firstSeenAt": "2026-08-06T07:49:33.978Z",
@@ -131,7 +125,7 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
       "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
       "firstSeenAt": "2026-09-01T10:08:06.495Z",
-      "lastSeenAt": "2026-09-07T10:20:09.754Z"
+      "lastSeenAt": "2026-09-08T09:43:10.881Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
@@ -149,13 +143,25 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
       "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
       "firstSeenAt": "2026-09-04T09:40:33.841Z",
-      "lastSeenAt": "2026-09-07T10:20:09.754Z"
+      "lastSeenAt": "2026-09-08T09:43:10.881Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
       "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
       "firstSeenAt": "2026-09-07T10:20:09.754Z",
-      "lastSeenAt": "2026-09-07T10:20:09.754Z"
+      "lastSeenAt": "2026-09-08T09:43:10.881Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+      "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
+      "firstSeenAt": "2026-09-08T09:43:10.881Z",
+      "lastSeenAt": "2026-09-08T09:43:10.881Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+      "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
+      "firstSeenAt": "2026-09-08T09:43:10.881Z",
+      "lastSeenAt": "2026-09-08T09:43:10.881Z"
     }
   ]
 }

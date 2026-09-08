@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T10:20:09.754Z",
+  "generatedAt": "2026-09-08T09:43:10.881Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -451,8 +451,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 92.1,
-          "period": "2026-06"
+          "value": 90.5,
+          "period": "2026-07"
         },
         {
           "code": "EU27_2020",
@@ -486,13 +486,13 @@
         }
       ],
       "germany": {
-        "value": 92.1,
-        "period": "2026-06",
-        "previousValue": 92.4,
-        "previousPeriod": "2025-06",
-        "peerMedian": 102.3,
-        "state": "mixed",
-        "explanation": "2026-06: fell by 0.3 versus 2025-06, inside the 1-point noise band or subject to a data flag.",
+        "value": 90.5,
+        "period": "2026-07",
+        "previousValue": 92.5,
+        "previousPeriod": "2025-07",
+        "peerMedian": 117,
+        "state": "deteriorating",
+        "explanation": "2026-07: fell by 2.0 versus 2025-07; that is deteriorating under the published direction rule.",
         "rule": {
           "direction": "higher",
           "noiseBand": 1
@@ -1529,6 +1529,48 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+      "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+      "publishedAt": "2026-09-08T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+      "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+      "publishedAt": "2026-09-08T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
       "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
@@ -1569,48 +1611,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
-      "title": "Inflationsrate im August 2026 voraussichtlich +2,9 %",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_311_611.html",
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
-      "title": "Importpreise im Juli 2026: +6,8 % gegenüber Juli 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
-      "publishedAt": "2026-08-28T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1618,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-07T10:20:09.754Z",
+      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
       "message": null
     }
   ],
@@ -1713,11 +1713,11 @@
         "industry",
         "trade"
       ],
-      "state": "mixed",
+      "state": "deteriorating",
       "signals": [
         {
           "label": "Industrial production",
-          "state": "mixed"
+          "state": "deteriorating"
         },
         {
           "label": "Manufacturing value added",
@@ -1732,11 +1732,11 @@
   ],
   "brief": {
     "headline": "The current evidence is mixed rather than one-directional.",
-    "summary": "Pressure is clearest in Unemployment rate. Improvement is visible in Industrial electricity price and Industrial gas price.",
+    "summary": "Pressure is clearest in Industrial production and Unemployment rate. Improvement is visible in Industrial electricity price and Industrial gas price.",
     "counts": {
       "improving": 2,
-      "deteriorating": 1,
-      "mixed": 3,
+      "deteriorating": 2,
+      "mixed": 2,
       "structural": 3
     }
   },
