@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T09:43:10.881Z",
-  "status": "healthy",
+  "generatedAt": "2026-09-09T09:47:43.044Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +980,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1051,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1426,7 +1434,9 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-broadband",
@@ -1501,7 +1511,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
@@ -1592,25 +1604,24 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
-      "title": "Einzelhandelsumsatz im Juli 2026 real um 3,4 % niedriger als im Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_312_45212.html",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
+      "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
       "publishedAt": "2026-09-01T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 8,
+      "score": 6,
       "topics": [
-        "Trade & resilience"
+        "Finance & capital"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
+        "priority topic +2"
       ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1618,42 +1629,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "message": "4/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-08T09:43:10.881Z",
+      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
       "message": null
     }
   ],
