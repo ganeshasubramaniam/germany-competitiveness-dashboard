@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T09:47:43.044Z",
-  "status": "degraded",
+  "generatedAt": "2026-09-10T09:45:48.641Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -463,20 +463,20 @@
         {
           "code": "FR",
           "shortLabel": "FR",
-          "value": 103.6,
-          "period": "2026-06"
+          "value": 103.1,
+          "period": "2026-07"
         },
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 93.5,
-          "period": "2026-06"
+          "value": 94.2,
+          "period": "2026-07"
         },
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 104.6,
-          "period": "2026-06"
+          "value": 107.1,
+          "period": "2026-07"
         },
         {
           "code": "PL",
@@ -490,7 +490,7 @@
         "period": "2026-07",
         "previousValue": 92.5,
         "previousPeriod": "2025-07",
-        "peerMedian": 117,
+        "peerMedian": 105.1,
         "state": "deteriorating",
         "explanation": "2026-07: fell by 2.0 versus 2025-07; that is deteriorating under the published direction rule.",
         "rule": {
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -903,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -980,9 +976,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-rd",
@@ -1057,9 +1051,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-fdi",
@@ -1434,9 +1426,7 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-broadband",
@@ -1511,34 +1501,51 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
-      "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
-      "publishedAt": "2026-09-04T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_320_611.html",
+      "title": "Inflationsrate im August 2026 bei +2,9 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_320_611.html",
+      "publishedAt": "2026-09-10T06:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Macro & demand",
-        "Industry & investment"
+        "Macro & demand"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_321_53211.html",
+      "title": "Umsatz im zulassungspflichtigen Handwerk im 2. Quartal 2026: -1,4 % zum Vorjahresquartal",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_321_53211.html",
+      "publishedAt": "2026-09-10T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Industry & investment"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
@@ -1602,26 +1609,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
-      "title": "Ruheständler-Haushalte verfügen im Mittel über 2 330 Euro pro Monat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N061_63.html",
-      "publishedAt": "2026-09-01T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 6,
-      "topics": [
-        "Finance & capital"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2"
-      ],
-      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1629,42 +1616,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
-      "message": "4/10 series refreshed. This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-09T09:47:43.044Z",
+      "lastSuccessAt": "2026-09-10T09:45:48.641Z",
       "message": null
     }
   ],
