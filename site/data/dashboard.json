@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T10:18:31.466Z",
+  "generatedAt": "2026-09-14T10:41:27.690Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1506,6 +1506,27 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N063_63.html",
+      "title": "3,8 Millionen Menschen leben in Haushalten mit Zahlungsrückständen bei Versorgungsbetrieben",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N063_63.html",
+      "publishedAt": "2026-09-14T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Finance & capital"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_325_52411.html",
       "title": "Unternehmensinsolvenzen im Juni 2026: +15,8 % gegenüber Juni 2025",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_325_52411.html",
@@ -1588,27 +1609,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
-      "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
-      "publishedAt": "2026-09-08T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1616,42 +1616,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-13T10:18:31.466Z",
+      "lastSuccessAt": "2026-09-14T10:41:27.690Z",
       "message": null
     }
   ],
