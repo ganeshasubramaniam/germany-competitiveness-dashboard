@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T10:05:54.901Z",
+  "generatedAt": "2026-09-16T09:57:56.502Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -262,14 +262,14 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": null,
-          "period": null
+          "value": 123.706,
+          "period": "2026-Q2"
         },
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 122.001,
-          "period": "2026-Q1"
+          "value": 122.281,
+          "period": "2026-Q2"
         },
         {
           "code": "FR",
@@ -280,8 +280,8 @@
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": null,
-          "period": null
+          "value": 115.069,
+          "period": "2026-Q2"
         },
         {
           "code": "NL",
@@ -292,18 +292,18 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": null,
-          "period": null
+          "value": 146.256,
+          "period": "2026-Q2"
         }
       ],
       "germany": {
-        "value": null,
-        "period": null,
-        "previousValue": null,
-        "previousPeriod": null,
-        "peerMedian": null,
-        "state": "no-verdict",
-        "explanation": "No comparable German observation is available.",
+        "value": 123.706,
+        "period": "2026-Q2",
+        "previousValue": 120.65,
+        "previousPeriod": "2025-Q2",
+        "peerMedian": 118.67500000000001,
+        "state": "mixed",
+        "explanation": "2026-Q2: rose by 3.1 versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "lower",
           "noiseBand": 0.5
@@ -457,8 +457,8 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 101,
-          "period": "2026-06"
+          "value": 100.3,
+          "period": "2026-07"
         },
         {
           "code": "FR",
@@ -490,7 +490,7 @@
         "period": "2026-07",
         "previousValue": 92.5,
         "previousPeriod": "2025-07",
-        "peerMedian": 105.1,
+        "peerMedian": 103.1,
         "state": "deteriorating",
         "explanation": "2026-07: fell by 2.0 versus 2025-07; that is deteriorating under the published direction rule.",
         "rule": {
@@ -1616,42 +1616,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-09-15T10:05:54.901Z",
+      "lastSuccessAt": "2026-09-16T09:57:56.502Z",
       "message": null
     }
   ],
@@ -1668,7 +1668,7 @@
       "signals": [
         {
           "label": "Nominal unit labour cost index",
-          "state": "no-verdict"
+          "state": "mixed"
         },
         {
           "label": "Industrial electricity price",
@@ -1734,7 +1734,7 @@
     "counts": {
       "improving": 2,
       "deteriorating": 2,
-      "mixed": 2,
+      "mixed": 3,
       "structural": 3
     }
   },

@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html",
-      "title": "Inflationsrate im Juli 2026 bei +2,8 %",
-      "firstSeenAt": "2026-08-12T06:43:04.643Z",
-      "lastSeenAt": "2026-08-17T05:50:58.378Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html",
       "title": "Stellenabbau in der Automobilindustrie: 42 300 weniger Beschäftigte zum Ende des 1. Halbjahres 2026 als ein Jahr zuvor",
       "firstSeenAt": "2026-08-14T06:42:54.214Z",
@@ -137,31 +131,31 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_320_611.html",
       "title": "Inflationsrate im August 2026 bei +2,9 %",
       "firstSeenAt": "2026-09-10T09:45:48.641Z",
-      "lastSeenAt": "2026-09-15T10:05:54.901Z"
+      "lastSeenAt": "2026-09-16T09:57:56.502Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_321_53211.html",
       "title": "Umsatz im zulassungspflichtigen Handwerk im 2. Quartal 2026: -1,4 % zum Vorjahresquartal",
       "firstSeenAt": "2026-09-10T09:45:48.641Z",
-      "lastSeenAt": "2026-09-15T10:05:54.901Z"
+      "lastSeenAt": "2026-09-16T09:57:56.502Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_325_52411.html",
       "title": "Unternehmensinsolvenzen im Juni 2026: +15,8 % gegenüber Juni 2025",
       "firstSeenAt": "2026-09-11T09:43:11.859Z",
-      "lastSeenAt": "2026-09-15T10:05:54.901Z"
+      "lastSeenAt": "2026-09-16T09:57:56.502Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N063_63.html",
       "title": "3,8 Millionen Menschen leben in Haushalten mit Zahlungsrückständen bei Versorgungsbetrieben",
       "firstSeenAt": "2026-09-14T10:41:27.690Z",
-      "lastSeenAt": "2026-09-15T10:05:54.901Z"
+      "lastSeenAt": "2026-09-16T09:57:56.502Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_326_61281.html",
       "title": "Großhandelspreise im August 2026: +6,8 % gegenüber August 2025",
       "firstSeenAt": "2026-09-15T10:05:54.901Z",
-      "lastSeenAt": "2026-09-15T10:05:54.901Z"
+      "lastSeenAt": "2026-09-16T09:57:56.502Z"
     }
   ]
 }
