@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T09:38:48.876Z",
-  "status": "healthy",
+  "generatedAt": "2026-10-19T10:47:20.147Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +980,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1051,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1506,6 +1514,28 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
+      "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
+      "publishedAt": "2026-10-19T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_370_3111.html",
       "title": "Baugenehmigungen für Wohnungen im August 2026: +6,8 % zum Vorjahresmonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_370_3111.html",
@@ -1595,42 +1625,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
+      "message": "6/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-18T09:38:48.876Z",
+      "lastSuccessAt": "2026-10-19T10:47:20.147Z",
       "message": null
     }
   ],
