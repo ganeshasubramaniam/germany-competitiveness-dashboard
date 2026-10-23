@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T10:12:38.388Z",
+  "generatedAt": "2026-10-23T10:05:17.932Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1506,6 +1506,29 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
+      "title": "Auftragseingang im Bauhauptgewerbe im August 2026: +23,0 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
+      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Macro & demand",
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
       "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
@@ -1589,27 +1612,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_374_45213.html",
-      "title": "Gastgewerbeumsatz im August 2026 real 1,3 % niedriger als im Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_374_45213.html",
-      "publishedAt": "2026-10-20T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Energy & infrastructure"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1617,42 +1619,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-22T10:12:38.388Z",
+      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
       "message": null
     }
   ],
