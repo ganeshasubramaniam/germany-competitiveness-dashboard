@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T10:05:17.932Z",
-  "status": "healthy",
+  "generatedAt": "2026-10-24T09:33:05.487Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -1126,7 +1126,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "HTTP 502 from api.worldbank.org"
     },
     {
       "id": "global-manufacturing",
@@ -1619,42 +1621,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
+      "message": "9/10 series refreshed. HTTP 502 from api.worldbank.org"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-23T10:05:17.932Z",
+      "lastSuccessAt": "2026-10-24T09:33:05.487Z",
       "message": null
     }
   ],
