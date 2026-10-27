@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T11:08:34.233Z",
+  "generatedAt": "2026-10-27T10:36:02.120Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1551,27 +1551,6 @@
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.bundesbank.de/de/presse/reden/zwei-wege-ein-auftrag-verlaesslich-bezahlen-in-europa-1012272",
-      "title": "Zwei Wege, ein Auftrag – Verlässlich bezahlen in Europa | Amtswechselfeier der Hauptverwaltung in Baden-Württemberg",
-      "url": "https://www.bundesbank.de/de/presse/reden/zwei-wege-ein-auftrag-verlaesslich-bezahlen-in-europa-1012272",
-      "publishedAt": "2026-10-21T15:00:00.000Z",
-      "source": "Deutsche Bundesbank",
-      "sourceId": "bundesbank",
-      "kind": "official-policy",
-      "authority": 3,
-      "score": 8,
-      "topics": [
-        "Industry & investment"
-      ],
-      "polarity": "positive",
-      "rules": [
-        "authority +3",
-        "priority topic +2",
-        "binding or company event +3"
-      ],
-      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N072_51_46.html",
       "title": "Deutschland importierte im 1. Halbjahr 2026 gut 96 % weniger Waren aus Russland als im 1. Halbjahr 2021",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N072_51_46.html",
@@ -1612,6 +1591,27 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_374_45213.html",
+      "title": "Gastgewerbeumsatz im August 2026 real 1,3 % niedriger als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_374_45213.html",
+      "publishedAt": "2026-10-20T06:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1619,42 +1619,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-26T11:08:34.233Z",
+      "lastSuccessAt": "2026-10-27T10:36:02.120Z",
       "message": null
     }
   ],
