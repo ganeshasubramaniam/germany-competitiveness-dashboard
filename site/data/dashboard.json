@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T11:24:29.765Z",
+  "generatedAt": "2026-10-31T10:56:02.683Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -199,7 +199,7 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 1.1,
+          "value": 1,
           "period": "2026-Q2"
         },
         {
@@ -223,8 +223,8 @@
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 0.6,
-          "period": "2026-Q2"
+          "value": 0.4,
+          "period": "2026-Q3"
         },
         {
           "code": "PL",
@@ -234,13 +234,13 @@
         }
       ],
       "germany": {
-        "value": 1.1,
+        "value": 1,
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.5,
+        "peerMedian": 0.3,
         "state": "mixed",
-        "explanation": "2026-Q2: rose by 0.6% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q2: rose by 0.5% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -286,7 +286,7 @@
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 122.615,
+          "value": 122.724,
           "period": "2026-Q2"
         },
         {
@@ -481,8 +481,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 114.9,
-          "period": "2026-08"
+          "value": 118.2,
+          "period": "2026-09"
         }
       ],
       "germany": {
@@ -490,7 +490,7 @@
         "period": "2026-08",
         "previousValue": 90.2,
         "previousPeriod": "2025-08",
-        "peerMedian": 102.4,
+        "peerMedian": 101.15,
         "state": "mixed",
         "explanation": "2026-08: rose by 0.5 versus 2025-08, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -1529,6 +1529,27 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html",
+      "title": "Inflationsrate im Oktober 2026 voraussichtlich +2,8 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html",
+      "publishedAt": "2026-10-30T13:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
       "title": "Bruttoinlandsprodukt im 3. Quartal 2026 um 0,2 % höher als im Vorquartal",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
@@ -1569,27 +1590,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N072_51_46.html",
-      "title": "Deutschland importierte im 1. Halbjahr 2026 gut 96 % weniger Waren aus Russland als im 1. Halbjahr 2021",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N072_51_46.html",
-      "publishedAt": "2026-10-21T06:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1597,42 +1597,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-10-30T11:24:29.765Z",
+      "lastSuccessAt": "2026-10-31T10:56:02.683Z",
       "message": null
     }
   ],
