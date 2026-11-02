@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T11:51:01.673Z",
-  "status": "healthy",
+  "generatedAt": "2026-11-02T13:30:35.338Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +980,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1051,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1126,7 +1134,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1201,7 +1211,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1276,7 +1288,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-working-age",
@@ -1351,7 +1365,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1506,27 +1522,25 @@
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
-      "title": "Auftragseingang im Bauhauptgewerbe im August 2026: +23,0 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
-      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_383_45212.html",
+      "title": "Einzelhandelsumsatz im September 2026 real um 2,0 % niedriger als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_383_45212.html",
+      "publishedAt": "2026-11-02T07:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Macro & demand",
-        "Industry & investment"
+        "Trade & resilience"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html",
@@ -1590,6 +1604,27 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://news.sap.com/germany/?p=188652",
+      "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
+      "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
+      "publishedAt": "2026-11-02T07:00:00.000Z",
+      "source": "SAP News",
+      "sourceId": "sap",
+      "kind": "company",
+      "authority": 1,
+      "score": 6,
+      "topics": [
+        "Innovation & digital"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +1",
+        "priority topic +2",
+        "binding or company event +3"
+      ],
+      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a positive signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1597,42 +1632,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "message": "2/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-01T11:51:01.673Z",
+      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
       "message": null
     }
   ],
