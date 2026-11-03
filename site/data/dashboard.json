@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T13:30:35.338Z",
-  "status": "degraded",
+  "generatedAt": "2026-11-03T12:48:40.633Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -640,8 +640,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 3.12,
-          "period": "2024"
+          "value": 3.07,
+          "period": "2025"
         },
         {
           "code": "EU27_2020",
@@ -652,36 +652,36 @@
         {
           "code": "FR",
           "shortLabel": "FR",
-          "value": 2.18,
-          "period": "2024"
+          "value": 2.19,
+          "period": "2025"
         },
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 1.41,
-          "period": "2024"
+          "value": 1.37,
+          "period": "2025"
         },
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 2.37,
-          "period": "2024"
+          "value": 2.4,
+          "period": "2025"
         },
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 1.4,
-          "period": "2024"
+          "value": 1.5,
+          "period": "2025"
         }
       ],
       "germany": {
-        "value": 3.12,
-        "period": "2024",
-        "previousValue": 3.1,
-        "previousPeriod": "2023",
-        "peerMedian": 2.18,
+        "value": 3.07,
+        "period": "2025",
+        "previousValue": 3.12,
+        "previousPeriod": "2024",
+        "peerMedian": 1.845,
         "state": "structural",
-        "explanation": "2024: Germany is above the available peer median. This is structural context, not a daily momentum call.",
+        "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
         "rule": {
           "direction": "structural-higher",
           "noiseBand": 0.1
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -903,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -980,9 +976,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-rd",
@@ -1057,9 +1051,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-fdi",
@@ -1134,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1211,9 +1201,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1288,9 +1276,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-working-age",
@@ -1365,9 +1351,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-old-age",
@@ -1522,6 +1506,27 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
+      "title": "Produktion von Nahrungsergänzungsmitteln seit 2019 um 48,4 % gestiegen",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
+      "publishedAt": "2026-11-03T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Macro & demand"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_383_45212.html",
       "title": "Einzelhandelsumsatz im September 2026 real um 2,0 % niedriger als im Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_383_45212.html",
@@ -1604,27 +1609,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://news.sap.com/germany/?p=188652",
-      "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
-      "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
-      "publishedAt": "2026-11-02T07:00:00.000Z",
-      "source": "SAP News",
-      "sourceId": "sap",
-      "kind": "company",
-      "authority": 1,
-      "score": 6,
-      "topics": [
-        "Innovation & digital"
-      ],
-      "polarity": "positive",
-      "rules": [
-        "authority +1",
-        "priority topic +2",
-        "binding or company event +3"
-      ],
-      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a positive signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1632,42 +1616,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
-      "message": "2/10 series refreshed. This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-02T13:30:35.338Z",
+      "lastSuccessAt": "2026-11-03T12:48:40.633Z",
       "message": null
     }
   ],
