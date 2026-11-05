@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T12:59:52.025Z",
+  "generatedAt": "2026-11-05T13:13:09.437Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1506,6 +1506,50 @@
   ],
   "news": [
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html",
+      "title": "Auftragseingang im Verarbeitenden Gewerbe im September 2026: +4,4 % zum Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html",
+      "publishedAt": "2026-11-05T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 10,
+      "topics": [
+        "Macro & demand",
+        "Industry & investment"
+      ],
+      "polarity": "positive",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "binding or company event +3",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_386_122.html",
+      "title": "Zahl der Privathaushalte kann bis zum Jahr 2050 um bis zu 5 % zurückgehen",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_386_122.html",
+      "publishedAt": "2026-11-05T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Finance & capital"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
       "title": "Produktion von Nahrungsergänzungsmitteln seit 2019 um 48,4 % gestiegen",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
@@ -1548,67 +1592,25 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html",
-      "title": "Inflationsrate im Oktober 2026 voraussichtlich +2,8 %",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html",
-      "publishedAt": "2026-10-30T13:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
+      "id": "https://news.sap.com/germany/?p=188652",
+      "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
+      "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
+      "publishedAt": "2026-11-02T07:00:00.000Z",
+      "source": "SAP News",
+      "sourceId": "sap",
+      "kind": "company",
+      "authority": 1,
+      "score": 6,
       "topics": [
-        "Macro & demand"
+        "Innovation & digital"
       ],
-      "polarity": "mixed",
+      "polarity": "positive",
       "rules": [
-        "authority +4",
+        "authority +1",
         "priority topic +2",
-        "quantified magnitude +2"
+        "binding or company event +3"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
-      "title": "Bruttoinlandsprodukt im 3. Quartal 2026 um 0,2 % höher als im Vorquartal",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_379_614.html",
-      "title": "Importpreise im September 2026: +10,4 % gegenüber September 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_379_614.html",
-      "publishedAt": "2026-10-30T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a positive signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1616,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-04T12:59:52.025Z",
+      "lastSuccessAt": "2026-11-05T13:13:09.437Z",
       "message": null
     }
   ],
