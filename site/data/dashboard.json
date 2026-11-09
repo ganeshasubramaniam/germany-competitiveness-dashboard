@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T11:56:38.838Z",
+  "generatedAt": "2026-11-09T13:55:11.465Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -1529,6 +1529,27 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
     },
     {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_390_51.html",
+      "title": "Exporte im September 2026: +2,0 % zum August 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_390_51.html",
+      "publishedAt": "2026-11-09T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html",
       "title": "Produktion im September 2026: +0,7 % zum Vormonat",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html",
@@ -1571,27 +1592,6 @@
       "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
-      "title": "Produktion von Nahrungsergänzungsmitteln seit 2019 um 48,4 % gestiegen",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_45_p002.html",
-      "publishedAt": "2026-11-03T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://news.sap.com/germany/?p=188652",
       "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
       "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
@@ -1618,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-08T11:56:38.838Z",
+      "lastSuccessAt": "2026-11-09T13:55:11.465Z",
       "message": null
     }
   ],
