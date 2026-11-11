@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T13:28:56.314Z",
+  "generatedAt": "2026-11-11T12:43:49.984Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -229,8 +229,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 0.7,
-          "period": "2026-Q2"
+          "value": null,
+          "period": null
         }
       ],
       "germany": {
@@ -238,7 +238,7 @@
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.3,
+        "peerMedian": 0.1,
         "state": "mixed",
         "explanation": "2026-Q2: rose by 0.5% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
@@ -292,8 +292,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": 145.273,
-          "period": "2026-Q2"
+          "value": null,
+          "period": null
         }
       ],
       "germany": {
@@ -301,7 +301,7 @@
         "period": "2026-Q2",
         "previousValue": 120.65,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 121.806,
+        "peerMedian": 118.1465,
         "state": "mixed",
         "explanation": "2026-Q2: rose by 3.1 versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
@@ -469,14 +469,14 @@
         {
           "code": "IT",
           "shortLabel": "IT",
-          "value": 92.8,
-          "period": "2026-08"
+          "value": 94.1,
+          "period": "2026-09"
         },
         {
           "code": "NL",
           "shortLabel": "NL",
-          "value": 110.8,
-          "period": "2026-08"
+          "value": 110.5,
+          "period": "2026-09"
         },
         {
           "code": "PL",
@@ -490,7 +490,7 @@
         "period": "2026-09",
         "previousValue": 91.4,
         "previousPeriod": "2025-09",
-        "peerMedian": 110,
+        "peerMedian": 106.15,
         "state": "mixed",
         "explanation": "2026-09: rose by 0.8 versus 2025-09, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -1506,27 +1506,25 @@
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html",
-      "title": "Auftragseingang im Verarbeitenden Gewerbe im September 2026: +4,4 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html",
-      "publishedAt": "2026-11-05T07:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html",
+      "title": "Inflationsrate im Oktober 2026 bei +2,8 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html",
+      "publishedAt": "2026-11-11T07:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Macro & demand",
-        "Industry & investment"
+        "Macro & demand"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_390_51.html",
@@ -1571,27 +1569,6 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_386_122.html",
-      "title": "Zahl der Privathaushalte kann bis zum Jahr 2050 um bis zu 5 % zurückgehen",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_386_122.html",
-      "publishedAt": "2026-11-05T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Finance & capital"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Financing conditions determine whether viable projects become productive assets. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://news.sap.com/germany/?p=188652",
       "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
       "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
@@ -1618,42 +1595,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-10T13:28:56.314Z",
+      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
       "message": null
     }
   ],
