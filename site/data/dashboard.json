@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T12:43:49.984Z",
-  "status": "healthy",
+  "generatedAt": "2026-11-12T13:47:00.208Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -976,7 +978,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1126,7 +1130,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1201,7 +1207,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1276,7 +1284,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-working-age",
@@ -1351,7 +1361,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1426,7 +1438,9 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-broadband",
@@ -1501,7 +1515,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
@@ -1548,25 +1564,24 @@
       "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html",
-      "title": "Produktion im September 2026: +0,7 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html",
-      "publishedAt": "2026-11-06T07:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_395_73.html",
+      "title": "Statistik der Grundsteuerwerte zeigt strukturelle Unterschiede in der Verteilung des Grundbesitzes in Deutschland",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_395_73.html",
+      "publishedAt": "2026-11-12T07:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 8,
+      "score": 6,
       "topics": [
-        "Macro & demand"
+        "Regulation & competition"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
+        "priority topic +2"
       ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://news.sap.com/germany/?p=188652",
@@ -1595,42 +1610,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
+      "message": "2/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-11T12:43:49.984Z",
+      "lastSuccessAt": "2026-11-12T13:47:00.208Z",
       "message": null
     }
   ],
