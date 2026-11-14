@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T13:07:45.591Z",
+  "generatedAt": "2026-11-14T12:12:09.511Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -229,8 +229,8 @@
         {
           "code": "PL",
           "shortLabel": "PL",
-          "value": null,
-          "period": null
+          "value": 0.7,
+          "period": "2026-Q2"
         }
       ],
       "germany": {
@@ -238,7 +238,7 @@
         "period": "2026-Q2",
         "previousValue": 0.5,
         "previousPeriod": "2025-Q2",
-        "peerMedian": 0.1,
+        "peerMedian": 0.3,
         "state": "mixed",
         "explanation": "2026-Q2: rose by 0.5% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
@@ -709,7 +709,7 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 34.5,
+          "value": 34.4,
           "period": "2025"
         },
         {
@@ -742,7 +742,7 @@
         "period": "2025",
         "previousValue": 35.2,
         "previousPeriod": "2024",
-        "peerMedian": 34.5,
+        "peerMedian": 34.4,
         "state": "structural",
         "explanation": "2025: Germany is above the available peer median. This is structural context, not a daily momentum call.",
         "rule": {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -1132,9 +1134,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1363,9 +1363,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-old-age",
@@ -1517,7 +1515,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
@@ -1631,42 +1631,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "stale",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": "2/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-13T13:07:45.591Z",
+      "lastSuccessAt": "2026-11-14T12:12:09.511Z",
       "message": null
     }
   ],
