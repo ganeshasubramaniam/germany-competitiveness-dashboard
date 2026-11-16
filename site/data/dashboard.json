@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T12:45:02.907Z",
+  "generatedAt": "2026-11-16T13:40:23.378Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -457,8 +457,8 @@
         {
           "code": "EU27_2020",
           "shortLabel": "EU",
-          "value": 99.9,
-          "period": "2026-08"
+          "value": 100.2,
+          "period": "2026-09"
         },
         {
           "code": "FR",
@@ -490,7 +490,7 @@
         "period": "2026-09",
         "previousValue": 91.4,
         "previousPeriod": "2025-09",
-        "peerMedian": 106.15,
+        "peerMedian": 101.8,
         "state": "mixed",
         "explanation": "2026-09: rose by 0.8 versus 2025-09, inside the 1-point noise band or subject to a data flag.",
         "rule": {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -978,7 +982,7 @@
         }
       },
       "stale": true,
-      "staleReason": "HTTP 503 from api.worldbank.org"
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1053,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1128,7 +1134,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1205,7 +1213,7 @@
         }
       },
       "stale": true,
-      "staleReason": "HTTP 503 from api.worldbank.org"
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1280,7 +1288,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-working-age",
@@ -1355,7 +1365,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1432,7 +1444,7 @@
         }
       },
       "stale": true,
-      "staleReason": "HTTP 503 from api.worldbank.org"
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-broadband",
@@ -1507,10 +1519,34 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_400_435.html",
+      "title": "Energieverbrauch der Industrie 2025 um 2,9 % gesunken",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_400_435.html",
+      "publishedAt": "2026-11-16T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure",
+        "Industry & investment"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
+    },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_396_61281.html",
       "title": "Großhandelspreise im Oktober 2026: +8,8 % gegenüber Oktober 2025",
@@ -1593,27 +1629,6 @@
         "priority topic +2"
       ],
       "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://news.sap.com/germany/?p=188652",
-      "title": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
-      "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
-      "publishedAt": "2026-11-02T07:00:00.000Z",
-      "source": "SAP News",
-      "sourceId": "sap",
-      "kind": "company",
-      "authority": 1,
-      "score": 6,
-      "topics": [
-        "Innovation & digital"
-      ],
-      "polarity": "positive",
-      "rules": [
-        "authority +1",
-        "priority topic +2",
-        "binding or company event +3"
-      ],
-      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a positive signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1621,42 +1636,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-15T12:45:02.907Z",
+      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "stale",
+      "status": "failed",
       "lastSuccessAt": "2026-11-15T12:45:02.907Z",
-      "message": "7/10 series refreshed. HTTP 503 from api.worldbank.org HTTP 503 from api.worldbank.org"
+      "message": "This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-15T12:45:02.907Z",
+      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-15T12:45:02.907Z",
+      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-15T12:45:02.907Z",
+      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-15T12:45:02.907Z",
+      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
       "message": null
     }
   ],
