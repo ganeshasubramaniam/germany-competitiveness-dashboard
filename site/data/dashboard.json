@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T13:40:23.378Z",
+  "generatedAt": "2026-11-17T14:25:59.940Z",
   "status": "degraded",
   "countries": {
     "eu": [
@@ -1590,27 +1590,6 @@
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a negative signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html",
-      "title": "Inflationsrate im Oktober 2026 bei +2,8 %",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html",
-      "publishedAt": "2026-11-11T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Macro & demand"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_395_73.html",
       "title": "Statistik der Grundsteuerwerte zeigt strukturelle Unterschiede in der Verteilung des Grundbesitzes in Deutschland",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_395_73.html",
@@ -1636,7 +1615,7 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
+      "lastSuccessAt": "2026-11-17T14:25:59.940Z",
       "message": null
     },
     {
@@ -1650,28 +1629,28 @@
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
+      "lastSuccessAt": "2026-11-17T14:25:59.940Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
+      "lastSuccessAt": "2026-11-17T14:25:59.940Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
+      "lastSuccessAt": "2026-11-17T14:25:59.940Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-16T13:40:23.378Z",
+      "lastSuccessAt": "2026-11-17T14:25:59.940Z",
       "message": null
     }
   ],
