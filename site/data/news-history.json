@@ -14,18 +14,6 @@
       "lastSeenAt": "2026-10-20T10:05:21.460Z"
     },
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_368_61281.html",
-      "title": "Großhandelspreise im September 2026: +8,7 % gegenüber September 2025",
-      "firstSeenAt": "2026-10-16T09:58:13.754Z",
-      "lastSeenAt": "2026-10-19T10:47:20.147Z"
-    },
-    {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html",
-      "title": "Inflationsrate im September 2026 bei +3,3 %",
-      "firstSeenAt": "2026-10-16T09:58:13.754Z",
-      "lastSeenAt": "2026-10-19T10:47:20.147Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
       "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
       "firstSeenAt": "2026-10-19T10:47:20.147Z",
@@ -137,7 +125,7 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_396_61281.html",
       "title": "Großhandelspreise im Oktober 2026: +8,8 % gegenüber Oktober 2025",
       "firstSeenAt": "2026-11-13T13:07:45.591Z",
-      "lastSeenAt": "2026-11-17T14:25:59.940Z"
+      "lastSeenAt": "2026-11-18T13:59:49.688Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_398_52411.html",
@@ -149,7 +137,19 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_400_435.html",
       "title": "Energieverbrauch der Industrie 2025 um 2,9 % gesunken",
       "firstSeenAt": "2026-11-16T13:40:23.378Z",
-      "lastSeenAt": "2026-11-17T14:25:59.940Z"
+      "lastSeenAt": "2026-11-18T13:59:49.688Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_403_421.html",
+      "title": "Auftragsbestand im Verarbeitenden Gewerbe im September 2026: +0,8 % zum Vormonat",
+      "firstSeenAt": "2026-11-18T13:59:49.688Z",
+      "lastSeenAt": "2026-11-18T13:59:49.688Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
+      "title": "Baugenehmigungen für Wohnungen im September 2026: -14,8 % zum Vorjahresmonat",
+      "firstSeenAt": "2026-11-18T13:59:49.688Z",
+      "lastSeenAt": "2026-11-18T13:59:49.688Z"
     }
   ]
 }
