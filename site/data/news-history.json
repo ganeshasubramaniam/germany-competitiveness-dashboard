@@ -8,12 +8,6 @@
       "lastSeenAt": "2026-10-21T10:10:37.757Z"
     },
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_369_712.html",
-      "title": "Gewerbesteuereinnahmen im Jahr 2025 um 1,5 % höher als im Vorjahr",
-      "firstSeenAt": "2026-10-16T09:58:13.754Z",
-      "lastSeenAt": "2026-10-20T10:05:21.460Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
       "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
       "firstSeenAt": "2026-10-19T10:47:20.147Z",
@@ -137,19 +131,25 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_400_435.html",
       "title": "Energieverbrauch der Industrie 2025 um 2,9 % gesunken",
       "firstSeenAt": "2026-11-16T13:40:23.378Z",
-      "lastSeenAt": "2026-11-18T13:59:49.688Z"
+      "lastSeenAt": "2026-11-19T14:26:56.936Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_403_421.html",
       "title": "Auftragsbestand im Verarbeitenden Gewerbe im September 2026: +0,8 % zum Vormonat",
       "firstSeenAt": "2026-11-18T13:59:49.688Z",
-      "lastSeenAt": "2026-11-18T13:59:49.688Z"
+      "lastSeenAt": "2026-11-19T14:26:56.936Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
       "title": "Baugenehmigungen für Wohnungen im September 2026: -14,8 % zum Vorjahresmonat",
       "firstSeenAt": "2026-11-18T13:59:49.688Z",
-      "lastSeenAt": "2026-11-18T13:59:49.688Z"
+      "lastSeenAt": "2026-11-19T14:26:56.936Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
+      "title": "KORREKTUR: Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
+      "firstSeenAt": "2026-11-19T14:26:56.936Z",
+      "lastSeenAt": "2026-11-19T14:26:56.936Z"
     }
   ]
 }

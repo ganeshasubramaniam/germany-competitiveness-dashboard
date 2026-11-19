@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T13:59:49.688Z",
-  "status": "healthy",
+  "generatedAt": "2026-11-19T14:26:56.936Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -199,8 +199,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 1,
-          "period": "2026-Q2"
+          "value": 0.2,
+          "period": "2026-Q3"
         },
         {
           "code": "EU27_2020",
@@ -234,13 +234,13 @@
         }
       ],
       "germany": {
-        "value": 1,
-        "period": "2026-Q2",
-        "previousValue": 0.5,
-        "previousPeriod": "2025-Q2",
-        "peerMedian": 0.3,
+        "value": 0.2,
+        "period": "2026-Q3",
+        "previousValue": 0,
+        "previousPeriod": "2025-Q3",
+        "peerMedian": 0.4,
         "state": "mixed",
-        "explanation": "2026-Q2: rose by 0.5% versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q3: rose by 0.2% versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -262,7 +262,7 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 123.741,
+          "value": 123.754,
           "period": "2026-Q2"
         },
         {
@@ -297,7 +297,7 @@
         }
       ],
       "germany": {
-        "value": 123.741,
+        "value": 123.754,
         "period": "2026-Q2",
         "previousValue": 120.65,
         "previousPeriod": "2025-Q2",
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +980,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1051,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1126,7 +1134,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-manufacturing",
@@ -1201,7 +1211,9 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-high-tech-exports",
@@ -1276,7 +1288,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-working-age",
@@ -1351,7 +1365,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-old-age",
@@ -1426,7 +1442,9 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-broadband",
@@ -1501,7 +1519,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     }
   ],
   "news": [
@@ -1526,6 +1546,27 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
+      "title": "KORREKTUR: Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
+      "publishedAt": "2026-11-19T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
@@ -1569,27 +1610,6 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_396_61281.html",
-      "title": "Großhandelspreise im Oktober 2026: +8,8 % gegenüber Oktober 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_396_61281.html",
-      "publishedAt": "2026-11-13T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Trade access and concentrated dependencies shape the resilience of export industries. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1597,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
+      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
+      "status": "failed",
       "lastSuccessAt": "2026-11-18T13:59:49.688Z",
-      "message": null
+      "message": "This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
+      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
+      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
+      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
+      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
       "message": null
     }
   ],
