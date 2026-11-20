@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T14:26:56.936Z",
-  "status": "degraded",
+  "generatedAt": "2026-11-20T14:01:35.567Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -539,7 +539,7 @@
           "code": "NL",
           "shortLabel": "NL",
           "value": 4,
-          "period": "2026-09"
+          "period": "2026-10"
         },
         {
           "code": "PL",
@@ -553,7 +553,7 @@
         "period": "2026-09",
         "previousValue": 3.8,
         "previousPeriod": "2025-09",
-        "peerMedian": 6.2,
+        "peerMedian": 6.25,
         "state": "deteriorating",
         "explanation": "2026-09: rose by 0.3% versus 2025-09; that is deteriorating under the published direction rule.",
         "rule": {
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -903,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -980,9 +976,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-rd",
@@ -1057,9 +1051,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-fdi",
@@ -1134,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1211,9 +1201,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1288,9 +1276,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-working-age",
@@ -1365,9 +1351,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-old-age",
@@ -1442,9 +1426,7 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-broadband",
@@ -1519,9 +1501,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
@@ -1546,6 +1526,28 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
+      "title": "Elektrischer Strom im Wert von 4,3 Milliarden Euro im 1. bis 3. Quartal 2026 exportiert",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
+      "publishedAt": "2026-11-20T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 8,
+      "topics": [
+        "Energy & infrastructure",
+        "Trade & resilience"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2",
+        "quantified magnitude +2"
+      ],
+      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
@@ -1617,42 +1619,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "failed",
-      "lastSuccessAt": "2026-11-18T13:59:49.688Z",
-      "message": "This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-19T14:26:56.936Z",
+      "lastSuccessAt": "2026-11-20T14:01:35.567Z",
       "message": null
     }
   ],
