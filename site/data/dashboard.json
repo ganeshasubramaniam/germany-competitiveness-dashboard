@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T15:59:35.926Z",
-  "status": "degraded",
+  "generatedAt": "2026-11-24T15:54:19.705Z",
+  "status": "healthy",
   "countries": {
     "eu": [
       {
@@ -826,9 +826,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-productivity",
@@ -903,9 +901,7 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-investment",
@@ -980,9 +976,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-rd",
@@ -1057,9 +1051,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-fdi",
@@ -1134,9 +1126,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-manufacturing",
@@ -1211,9 +1201,7 @@
           "direction": "neutral",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-high-tech-exports",
@@ -1288,9 +1276,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-working-age",
@@ -1365,9 +1351,7 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-old-age",
@@ -1442,9 +1426,7 @@
           "direction": "structural-lower",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     },
     {
       "id": "global-broadband",
@@ -1519,33 +1501,31 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      },
-      "stale": true,
-      "staleReason": "This operation was aborted"
+      }
     }
   ],
   "news": [
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_403_421.html",
-      "title": "Auftragsbestand im Verarbeitenden Gewerbe im September 2026: +0,8 % zum Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_403_421.html",
-      "publishedAt": "2026-11-18T07:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_48_p002.html",
+      "title": "98 % der Feuerwerk-Importe im Jahr 2025 kamen aus China",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_48_p002.html",
+      "publishedAt": "2026-11-24T07:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 10,
+      "score": 8,
       "topics": [
-        "Industry & investment"
+        "Industry & investment",
+        "Trade & resilience"
       ],
-      "polarity": "positive",
+      "polarity": "mixed",
       "rules": [
         "authority +4",
         "priority topic +2",
-        "binding or company event +3",
         "quantified magnitude +2"
       ],
-      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a positive signal under the headline rule, not a forecast."
+      "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
@@ -1610,6 +1590,26 @@
         "quantified magnitude +2"
       ],
       "whyItMatters": "Binding policy can change the cost, speed and certainty of doing business. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
+      "title": "Mehr als jedes dritte Unternehmen nutzt 2026 künstliche Intelligenz",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
+      "publishedAt": "2026-11-24T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 6,
+      "topics": [
+        "Innovation & digital"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2"
+      ],
+      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1617,42 +1617,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-23T15:59:35.926Z",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "failed",
-      "lastSuccessAt": "2026-11-22T13:22:13.410Z",
-      "message": "This operation was aborted This operation was aborted"
+      "status": "fresh",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
+      "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-23T15:59:35.926Z",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-23T15:59:35.926Z",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-23T15:59:35.926Z",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-23T15:59:35.926Z",
+      "lastSuccessAt": "2026-11-24T15:54:19.705Z",
       "message": null
     }
   ],
