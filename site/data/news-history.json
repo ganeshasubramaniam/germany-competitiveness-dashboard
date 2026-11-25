@@ -26,12 +26,6 @@
       "lastSeenAt": "2026-10-30T11:24:29.765Z"
     },
     {
-      "url": "https://www.bundesbank.de/de/presse/reden/zwei-wege-ein-auftrag-verlaesslich-bezahlen-in-europa-1012272",
-      "title": "Zwei Wege, ein Auftrag – Verlässlich bezahlen in Europa | Amtswechselfeier der Hauptverwaltung in Baden-Württemberg",
-      "firstSeenAt": "2026-10-22T10:12:38.388Z",
-      "lastSeenAt": "2026-10-26T11:08:34.233Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
       "title": "Auftragseingang im Bauhauptgewerbe im August 2026: +23,0 % zum Vormonat",
       "firstSeenAt": "2026-10-23T10:05:17.932Z",
@@ -143,25 +137,37 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
       "title": "KORREKTUR: Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
       "firstSeenAt": "2026-11-19T14:26:56.936Z",
-      "lastSeenAt": "2026-11-24T15:54:19.705Z"
+      "lastSeenAt": "2026-11-25T15:37:18.258Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
       "title": "Elektrischer Strom im Wert von 4,3 Milliarden Euro im 1. bis 3. Quartal 2026 exportiert",
       "firstSeenAt": "2026-11-20T14:01:35.567Z",
-      "lastSeenAt": "2026-11-24T15:54:19.705Z"
+      "lastSeenAt": "2026-11-25T15:37:18.258Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_48_p002.html",
       "title": "98 % der Feuerwerk-Importe im Jahr 2025 kamen aus China",
       "firstSeenAt": "2026-11-24T15:54:19.705Z",
-      "lastSeenAt": "2026-11-24T15:54:19.705Z"
+      "lastSeenAt": "2026-11-25T15:37:18.258Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
       "title": "Mehr als jedes dritte Unternehmen nutzt 2026 künstliche Intelligenz",
       "firstSeenAt": "2026-11-24T15:54:19.705Z",
       "lastSeenAt": "2026-11-24T15:54:19.705Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_410_441.html",
+      "title": "Auftragseingang im Bauhauptgewerbe im September 2026: -16,1 % zum Vormonat",
+      "firstSeenAt": "2026-11-25T15:37:18.258Z",
+      "lastSeenAt": "2026-11-25T15:37:18.258Z"
+    },
+    {
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
+      "title": "Bruttoinlandsprodukt: Ausführliche Ergebnisse zur Wirtschaftsleistung im 3. Quartal 2026",
+      "firstSeenAt": "2026-11-25T15:37:18.258Z",
+      "lastSeenAt": "2026-11-25T15:37:18.258Z"
     }
   ]
 }
