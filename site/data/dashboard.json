@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T15:37:18.258Z",
+  "generatedAt": "2026-11-26T15:18:49.824Z",
   "status": "healthy",
   "countries": {
     "eu": [
@@ -136,7 +136,7 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 0.2,
+          "value": 0.1,
           "period": "2026-Q3"
         },
         {
@@ -171,13 +171,13 @@
         }
       ],
       "germany": {
-        "value": 0.2,
+        "value": 0.1,
         "period": "2026-Q3",
         "previousValue": 0,
         "previousPeriod": "2025-Q3",
         "peerMedian": 0.5,
         "state": "mixed",
-        "explanation": "2026-Q3: rose by 0.2% versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q3: rose by 0.1% versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -199,7 +199,7 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 0.2,
+          "value": 0.1,
           "period": "2026-Q3"
         },
         {
@@ -234,13 +234,13 @@
         }
       ],
       "germany": {
-        "value": 0.2,
+        "value": 0.1,
         "period": "2026-Q3",
         "previousValue": 0,
         "previousPeriod": "2025-Q3",
         "peerMedian": 0.4,
         "state": "mixed",
-        "explanation": "2026-Q3: rose by 0.2% versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q3: rose by 0.1% versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "higher",
           "noiseBand": 0.2
@@ -262,8 +262,8 @@
         {
           "code": "DE",
           "shortLabel": "DE",
-          "value": 123.754,
-          "period": "2026-Q2"
+          "value": 124.703,
+          "period": "2026-Q3"
         },
         {
           "code": "EU27_2020",
@@ -297,13 +297,13 @@
         }
       ],
       "germany": {
-        "value": 123.754,
-        "period": "2026-Q2",
-        "previousValue": 120.65,
-        "previousPeriod": "2025-Q2",
-        "peerMedian": 121.806,
+        "value": 124.703,
+        "period": "2026-Q3",
+        "previousValue": 122.03,
+        "previousPeriod": "2025-Q3",
+        "peerMedian": null,
         "state": "mixed",
-        "explanation": "2026-Q2: rose by 3.1 versus 2025-Q2. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
+        "explanation": "2026-Q3: rose by 2.7 versus 2025-Q3. Eurostat flags the latest observation as \"p\", so the verdict stays mixed.",
         "rule": {
           "direction": "lower",
           "noiseBand": 0.5
@@ -1573,25 +1573,24 @@
       "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
-      "title": "KORREKTUR: Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
-      "publishedAt": "2026-11-19T07:00:00.000Z",
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N084_51_42.html",
+      "title": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N084_51_42.html",
+      "publishedAt": "2026-11-26T07:00:00.000Z",
       "source": "Destatis",
       "sourceId": "destatis",
       "kind": "official-statistics",
       "authority": 4,
-      "score": 8,
+      "score": 6,
       "topics": [
-        "Energy & infrastructure"
+        "Macro & demand"
       ],
       "polarity": "mixed",
       "rules": [
         "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
+        "priority topic +2"
       ],
-      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
+      "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
     },
     {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
@@ -1619,42 +1618,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-25T15:37:18.258Z",
+      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
       "message": null
     }
   ],
