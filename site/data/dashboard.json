@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T15:18:49.824Z",
-  "status": "healthy",
+  "generatedAt": "2026-11-27T15:06:50.552Z",
+  "status": "degraded",
   "countries": {
     "eu": [
       {
@@ -826,7 +826,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.2
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-productivity",
@@ -901,7 +903,9 @@
           "direction": "structural-higher",
           "noiseBand": 500
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-investment",
@@ -976,7 +980,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.5
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-rd",
@@ -1051,7 +1057,9 @@
           "direction": "structural-higher",
           "noiseBand": 0.1
         }
-      }
+      },
+      "stale": true,
+      "staleReason": "This operation was aborted"
     },
     {
       "id": "global-fdi",
@@ -1551,28 +1559,6 @@
       "whyItMatters": "Capacity, orders and investment change Germany's future industrial base. This is a mixed signal under the headline rule, not a forecast."
     },
     {
-      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
-      "title": "Elektrischer Strom im Wert von 4,3 Milliarden Euro im 1. bis 3. Quartal 2026 exportiert",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
-      "publishedAt": "2026-11-20T07:00:00.000Z",
-      "source": "Destatis",
-      "sourceId": "destatis",
-      "kind": "official-statistics",
-      "authority": 4,
-      "score": 8,
-      "topics": [
-        "Energy & infrastructure",
-        "Trade & resilience"
-      ],
-      "polarity": "mixed",
-      "rules": [
-        "authority +4",
-        "priority topic +2",
-        "quantified magnitude +2"
-      ],
-      "whyItMatters": "Energy and infrastructure costs affect industrial location, margins and investment. This is a mixed signal under the headline rule, not a forecast."
-    },
-    {
       "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N084_51_42.html",
       "title": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N084_51_42.html",
@@ -1611,6 +1597,26 @@
         "priority topic +2"
       ],
       "whyItMatters": "It changes the evidence on demand, output or business resilience. This is a mixed signal under the headline rule, not a forecast."
+    },
+    {
+      "id": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
+      "title": "Mehr als jedes dritte Unternehmen nutzt 2026 künstliche Intelligenz",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
+      "publishedAt": "2026-11-24T07:00:00.000Z",
+      "source": "Destatis",
+      "sourceId": "destatis",
+      "kind": "official-statistics",
+      "authority": 4,
+      "score": 6,
+      "topics": [
+        "Innovation & digital"
+      ],
+      "polarity": "mixed",
+      "rules": [
+        "authority +4",
+        "priority topic +2"
+      ],
+      "whyItMatters": "Innovation diffusion determines whether research becomes scalable productivity. This is a mixed signal under the headline rule, not a forecast."
     }
   ],
   "sourceHealth": [
@@ -1618,42 +1624,42 @@
       "id": "eurostat",
       "name": "Eurostat EU panel",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
       "message": null
     },
     {
       "id": "world-bank",
       "name": "World Bank global panel",
-      "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
-      "message": null
+      "status": "stale",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
+      "message": "6/10 series refreshed. This operation was aborted This operation was aborted"
     },
     {
       "id": "news-destatis",
       "name": "Destatis feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
       "message": null
     },
     {
       "id": "news-bundesbank",
       "name": "Deutsche Bundesbank feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
       "message": null
     },
     {
       "id": "news-bundesbank-press",
       "name": "Deutsche Bundesbank · Press feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
       "message": null
     },
     {
       "id": "news-sap",
       "name": "SAP News feed",
       "status": "fresh",
-      "lastSuccessAt": "2026-11-26T15:18:49.824Z",
+      "lastSuccessAt": "2026-11-27T15:06:50.552Z",
       "message": null
     }
   ],

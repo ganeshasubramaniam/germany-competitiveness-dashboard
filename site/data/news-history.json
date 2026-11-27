@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
-      "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
-      "firstSeenAt": "2026-10-19T10:47:20.147Z",
-      "lastSeenAt": "2026-10-28T11:21:06.510Z"
-    },
-    {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_372_51.html",
       "title": "Rohöl im Wert von 30,0 Milliarden Euro im Zeitraum Januar bis August 2026 importiert",
       "firstSeenAt": "2026-10-20T10:05:21.460Z",
@@ -149,31 +143,31 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_48_p002.html",
       "title": "98 % der Feuerwerk-Importe im Jahr 2025 kamen aus China",
       "firstSeenAt": "2026-11-24T15:54:19.705Z",
-      "lastSeenAt": "2026-11-26T15:18:49.824Z"
+      "lastSeenAt": "2026-11-27T15:06:50.552Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
       "title": "Mehr als jedes dritte Unternehmen nutzt 2026 künstliche Intelligenz",
       "firstSeenAt": "2026-11-24T15:54:19.705Z",
-      "lastSeenAt": "2026-11-24T15:54:19.705Z"
+      "lastSeenAt": "2026-11-27T15:06:50.552Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_410_441.html",
       "title": "Auftragseingang im Bauhauptgewerbe im September 2026: -16,1 % zum Vormonat",
       "firstSeenAt": "2026-11-25T15:37:18.258Z",
-      "lastSeenAt": "2026-11-26T15:18:49.824Z"
+      "lastSeenAt": "2026-11-27T15:06:50.552Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
       "title": "Bruttoinlandsprodukt: Ausführliche Ergebnisse zur Wirtschaftsleistung im 3. Quartal 2026",
       "firstSeenAt": "2026-11-25T15:37:18.258Z",
-      "lastSeenAt": "2026-11-26T15:18:49.824Z"
+      "lastSeenAt": "2026-11-27T15:06:50.552Z"
     },
     {
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N084_51_42.html",
       "title": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück",
       "firstSeenAt": "2026-11-26T15:18:49.824Z",
-      "lastSeenAt": "2026-11-26T15:18:49.824Z"
+      "lastSeenAt": "2026-11-27T15:06:50.552Z"
     }
   ]
 }
